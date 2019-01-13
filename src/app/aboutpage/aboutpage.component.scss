@@ -1,14 +1,14 @@
 .about-background-holder {
-	background-color: red;
-	height: 100vh;
+	height: fit-content;
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-color: #f7f9e4;
 }
 
 .about-left-background {
 	background-color: #598a58;
-	height: 100vh;
+	height: 100%;
 	width: 50%;
 	display: inline-block;
 	overflow: hidden;
@@ -16,16 +16,24 @@
 
 .about-right-background {
 	background-color: #f7f9e4;
-	height: 100vh;
+	height: fit-content;
 	width: 50%;
 	display: inline-block;
 	overflow: hidden;
+	position: absolute;
 }
 
 .about-right-content {
+	height: fit-content;
+	width: 100%;
+	padding-left: 5rem;
+}
+
+.about-left-content {
 	height: 100%;
 	width: 100%;
 	padding-left: 5rem;
+	padding-top: 3rem;
 }
 
 .about-right-content-header {
@@ -35,11 +43,12 @@
 	margin-left: 25%;
 }
 
+.about-left-img-holder {
+}
+
 .about-myself-img {
 	height: 20rem;
-	margin-top: 4rem;
-	margin-right: 4rem;
-	float: right;
+	padding-top: 3rem;
 }
 
 .about-right-content-text {
@@ -57,4 +66,14 @@
 .about-right-text-wrapper {
 	margin-bottom: 2rem;
 	margin-right: 6rem;
+}
+
+.about-left-content-left {
+	height: 100%;
+	display: inline-block;
+}
+
+.about-left-content-right {
+	height: 100%;
+	display: inline-block;
 }
