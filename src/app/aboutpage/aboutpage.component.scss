@@ -23,41 +23,38 @@
 }
 
 .about-right-content {
-	display: grid;
 	height: 100%;
 	width: 100%;
-	grid-template-rows: 15rem 100px auto;
-	grid-template-columns: 11rem auto
+	padding-left: 5rem;
 }
 
 .about-right-content-header {
-	grid-column-start: 2;
-	grid-row: 1;
 	font-size: 5rem;
 	margin-top: 3rem;
-	text-align:center;
+	margin-bottom: 2rem;
+	margin-left: 25%;
 }
 
 .about-myself-img {
 	height: 20rem;
-	left: calc(50vw - 10rem);
-	position: absolute;
 	margin-top: 4rem;
+	margin-right: 4rem;
+	float: right;
 }
 
 .about-right-content-text {
-	grid-column-start: 2;
-	grid-row: 2;
 	font-size: 2rem;
 	margin-right: 1rem;
-}
-
-.about-text-wrapper {
-	display: flex;
-	margin-bottom: 1rem;
+	margin-left: 5rem;
 }
 
 .about-text-bullet-point {
-	height: 5rem;
+	height: 4rem;
 	padding-right: 1rem;
+	position: absolute;
+}
+
+.about-right-text-wrapper {
+	margin-bottom: 2rem;
+	margin-right: 6rem;
 }
