@@ -4,6 +4,7 @@
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	text-align:center;
 }
 
 .frontpage-text-container {
@@ -26,3 +27,11 @@
 	padding-top: 11rem;
 }
 
+.frontpage-main-arrow {
+	margin-top: -5rem;
+}
+
+.frontpage-arrow-img {
+	height: 4rem;
+	width: 5rem;
+}
