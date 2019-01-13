@@ -1,0 +1,28 @@
+.frontpage-background {
+	background-color: #91c290;
+	height: 100vh;
+	width: calc(100vw - 1rem);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+.frontpage-text-container {
+	text-align: center;
+	height: 100%;
+	display: grid;
+}
+
+.frontpage-main-header {
+	font-size: 10rem;
+	grid-column-start: 1;
+	grid-row: 2;
+}
+
+.frontpage-main-text {
+	font-size: 3rem;
+	color: white;
+	grid-column-start: 1;
+	grid-row: 2;
+	padding-top: 11rem;
+}
+
