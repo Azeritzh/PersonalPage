@@ -1,6 +1,6 @@
 .about-background-holder {
 	height: calc(100vh - 4rem);
-	@media (max-height: 750px) {height: 52rem;}
+	@media (max-height: 832px) {height: 47rem;}
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -30,17 +30,18 @@
 }
 
 .about-left-content {
-	height: 100%;
-	width: 50%;
-	display: table;
-	position: absolute;
+	//height: 100%;
+	//width: 50%;
+	//display: table;
+	//position: absolute;
+	padding-top: 3rem;
 }
 
-.about-img-wrapper {
+/*.about-img-wrapper {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
-}
+}*/
 
 .about-right-content-header {
 	font-size: 5rem;
@@ -52,8 +53,8 @@
 
 .about-myself-img {
 	height: 20rem;
-	@media (max-width: 1706px) {height: 15rem;}
-	padding: 1.5rem;
+	@media (max-width: 1706px), (max-height: 832px) {height: 15rem;}
+	//padding: 1.5rem;
 }
 
 .about-right-content-text {
@@ -72,4 +73,29 @@
 .about-right-text-wrapper {
 	margin-bottom: 2rem;
 	margin-right: 6rem;
+}
+
+.about-img-1 {
+	margin-top: 11rem;
+	margin-left:7rem;
+	@media (max-width: 1706px), (max-height: 832px) {margin-top: 8.5rem; margin-left: 12rem;}
+}
+
+.about-img-2 {
+	position: absolute;
+	left: 27rem;
+}
+
+.about-img-3 {
+	position: absolute;
+	margin-top: 22.5rem;
+	left: 27rem;
+	@media (max-width: 1706px), (max-height: 832px) {margin-top: 17rem; left: 27rem;}
+}
+
+.about-img-4 {
+	position: absolute;
+	margin-top: 33.5rem;
+	left: 7rem;
+	@media (max-width: 1706px), (max-height: 832px) {margin-top: 25.5rem; left: 12rem}
 }
