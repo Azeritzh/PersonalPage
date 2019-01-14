@@ -1,6 +1,6 @@
 .skill-background-holder {
 	height: calc(100vh - 4rem);
-	@media (max-height: 750px) {height: 54rem;}
+	@media (max-height: 950px) {height: 54rem;}
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 	position: absolute;
 	left: 35vw;
 	margin-top: 3rem;
-	background-color: darkorange;
+	background-color: #AFDFB1;
 	padding-bottom: 1rem;
 	padding-right: 1rem;
 	padding-left: 1rem;
