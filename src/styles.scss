@@ -2,3 +2,51 @@
 body {
 	margin: 0;
 }
+
+//Styling for general page layout
+.page-background-holder {
+	height: calc(100vh - 4rem);
+	@media (max-height: 950px) {height: 47rem;}
+	width: calc(100vw - 1rem);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #f7f9e4;
+}
+
+.page-background {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+//Styling for four image layout
+.four-image-layout1 {
+	margin-top: 11rem;
+	margin-left:7rem;
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 8.5rem; margin-left: 12rem;}
+}
+
+.four-image-layout2 {
+	position: absolute;
+	left: 27rem;
+}
+
+.four-image-layout3 {
+	position: absolute;
+	margin-top: 22.5rem;
+	left: 27rem;
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 17rem; left: 27rem;}
+}
+
+.four-image-layout4 {
+	position: absolute;
+	margin-top: 33.5rem;
+	left: 7rem;
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 25.5rem; left: 12rem}
+}
+
+.four-image-img {
+	height: 20rem;
+	@media (max-width: 1706px), (max-height: 950px) {height: 15rem;}
+}
