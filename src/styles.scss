@@ -50,3 +50,31 @@ body {
 	height: 20rem;
 	@media (max-width: 1706px), (max-height: 950px) {height: 15rem;}
 }
+
+//Styling for text page
+
+.page-header {
+	font-size: 5rem;
+	@media (max-width: 1706px) {font-size: 4rem;}
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.page-text {
+	@media (max-width: 1706px), (max-height: 950px) {font-size: 1.5rem;}
+	font-size: 2rem;
+	margin-right: 1rem;
+	margin-left: 5rem;
+}
+
+.page-bullet-point {
+	height: 4rem;
+	@media (max-width: 1706px), (max-height: 950px) {height: 3rem;}
+	position: absolute;
+}
+
+.page-text-wrapper {
+	margin-bottom: 1.5rem;
+	margin-right: 6rem;
+}

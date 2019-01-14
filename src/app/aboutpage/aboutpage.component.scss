@@ -13,29 +13,3 @@
 .about-left-content {
 	padding-top: 3rem;
 }
-
-.about-right-content-header {
-	font-size: 5rem;
-	@media (max-width: 1706px) {font-size: 4rem;}
-	margin-top: 3rem;
-	margin-bottom: 2rem;
-	margin-left: 25%;
-}
-
-.about-right-content-text {
-	@media (max-width: 1706px), (max-height: 950px) {font-size: 1.5rem;}
-	font-size: 2rem;
-	margin-right: 1rem;
-	margin-left: 5rem;
-}
-
-.about-text-bullet-point {
-	height: 4rem;
-	@media (max-width: 1706px), (max-height: 950px) {height: 3rem;}
-	position: absolute;
-}
-
-.about-right-text-wrapper {
-	margin-bottom: 2rem;
-	margin-right: 6rem;
-}
