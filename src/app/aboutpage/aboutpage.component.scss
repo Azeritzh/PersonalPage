@@ -1,5 +1,6 @@
 .about-background-holder {
-	height: fit-content;
+	height: calc(100vh - 4rem);
+	@media (max-height: 750px) {height: 47rem;}
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -16,42 +17,47 @@
 
 .about-right-background {
 	background-color: #f7f9e4;
-	height: fit-content;
+	height: 100%;
 	width: 50%;
 	display: inline-block;
 	overflow: hidden;
-	position: absolute;
 }
 
 .about-right-content {
-	height: fit-content;
+	height: 100%;
 	width: 100%;
 	padding-left: 5rem;
 }
 
 .about-left-content {
 	height: 100%;
-	width: 100%;
-	padding-left: 5rem;
-	padding-top: 3rem;
+	width: 50%;
+	display: table;
+	position: absolute;
+}
+
+.about-img-wrapper {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
 }
 
 .about-right-content-header {
 	font-size: 5rem;
+	@media (max-width: 1706px) {font-size: 4rem;}
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 	margin-left: 25%;
 }
 
-.about-left-img-holder {
-}
-
 .about-myself-img {
 	height: 20rem;
-	padding-top: 3rem;
+	@media (max-width: 1706px) {height: 15rem;}
+	padding: 1.5rem;
 }
 
 .about-right-content-text {
+	@media (max-width: 1706px) {font-size: 1.5rem;}
 	font-size: 2rem;
 	margin-right: 1rem;
 	margin-left: 5rem;
@@ -59,21 +65,11 @@
 
 .about-text-bullet-point {
 	height: 4rem;
-	padding-right: 1rem;
+	@media (max-width: 1706px) {height: 3rem;}
 	position: absolute;
 }
 
 .about-right-text-wrapper {
 	margin-bottom: 2rem;
 	margin-right: 6rem;
-}
-
-.about-left-content-left {
-	height: 100%;
-	display: inline-block;
-}
-
-.about-left-content-right {
-	height: 100%;
-	display: inline-block;
 }
