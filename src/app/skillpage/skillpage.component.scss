@@ -1,0 +1,77 @@
+.skill-background-holder {
+	height: calc(100vh - 4rem);
+	@media (max-height: 750px) {height: 54rem;}
+	width: calc(100vw - 1rem);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: #f7f9e4;
+}
+
+.skill-header {
+	font-size: 5rem;
+	@media (max-width: 1706px) {font-size: 3.5rem;}
+	position: absolute;
+	left: 35vw;
+	margin-top: 3rem;
+	background-color: darkorange;
+	padding-bottom: 1rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	border-radius: 2rem;
+}
+
+.skill-left-background {
+	background-color: #f7f9e4;
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.skill-right-background {
+	background-color: #598a58;
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.skill-right-content {
+	height: 100%;
+	width: 100%;
+}
+
+.skill-left-content {
+	height: 100%;
+	width: 100%;
+}
+
+.skill-img {
+	height: 15rem;
+	margin-left: calc(25vw - 8rem);
+	@media (max-width: 1706px) {height: 12rem;}
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+
+.skill-content-text {
+	@media (max-width: 1706px) {font-size: 1.5rem;}
+	font-size: 2rem;
+	text-align: center;
+}
+
+.skill-text-bullet-point {
+	height: 4rem;
+	@media (max-width: 1706px) {height: 3rem;}
+	position: absolute;
+}
+
+.skill-text-wrapper {
+	margin-bottom: 2rem;
+}
+
+.skill-content-header {
+	font-size: 2rem;
+	text-align: center;
+	font-weight: bold;
+}
