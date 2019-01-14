@@ -1,1 +1,1 @@
-ng build --prod --output-path docs --deploy-url /PersonalPage/
+ng build --prod --output-path docs --base-href /PersonalPage/
