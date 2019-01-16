@@ -7,6 +7,7 @@ body {
 .page-background-holder {
 	height: calc(100vh - 4rem);
 	@media (max-height: 950px) {height: 47rem;}
+	@media (max-height: 990px) {height: 60rem;}
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -24,31 +25,36 @@ body {
 .four-image-layout1 {
 	margin-top: 11rem;
 	margin-left:7rem;
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 8.5rem; margin-left: 12rem;}
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 8.5rem; margin-left: 12rem;}
+	@media (max-width: 1706px), (max-height: 980px) {margin-top: 13.5rem; margin-left: 6rem;}
 }
 
 .four-image-layout2 {
 	position: absolute;
 	left: 27rem;
+	@media (max-width: 1706px), (max-height: 980px) { left: 23rem; margin-top: 4rem;}
 }
 
 .four-image-layout3 {
 	position: absolute;
 	margin-top: 22.5rem;
 	left: 27rem;
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 17rem; left: 27rem;}
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 17rem; left: 27rem;}
+	@media (max-width: 1706px), (max-height: 980px) {margin-top: 22.5rem; left: 23rem;}
 }
 
 .four-image-layout4 {
 	position: absolute;
 	margin-top: 33.5rem;
 	left: 7rem;
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 25.5rem; left: 12rem}
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 25.5rem; left: 12rem}
+	@media (max-width: 1706px), (max-height: 980px) {margin-top: 32rem; left: 6rem;}
 }
 
 .four-image-img {
 	height: 20rem;
-	@media (max-width: 1706px), (max-height: 980px) {height: 15rem;}
+	@media (max-width: 1706px), (max-height: 950px) {height: 17rem;}
+	@media (max-width: 1706px), (max-height: 980px) {height: 16rem;}
 }
 
 //Styling for text page
