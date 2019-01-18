@@ -55,6 +55,7 @@ body {
 	height: 20rem;
 	@media (max-width: 1706px), (max-height: 950px) {height: 17rem;}
 	@media (max-width: 1706px), (max-height: 980px) {height: 16rem;}
+	filter: drop-shadow(0 0 1rem rgb(63, 78, 95));
 }
 
 //Styling for text page
