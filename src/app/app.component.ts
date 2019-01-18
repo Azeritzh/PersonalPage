@@ -21,7 +21,8 @@ export class AppComponent {
         "assets/images/idun-start.png",
         "assets/images/idun-login.png",
         "assets/images/idun-template.png",
-        "assets/images/idun-patient.png"]
+        "assets/images/idun-patient.png"],
+      background: ""
     },
     {
       title: "Private Healthcare Webapplication",
@@ -35,7 +36,8 @@ export class AppComponent {
         "assets/images/idun-start.png",
         "assets/images/idun-login.png",
         "assets/images/idun-template.png",
-        "assets/images/idun-patient.png"]
+        "assets/images/idun-patient.png"],
+        background: "true"
     }
   ]
 }

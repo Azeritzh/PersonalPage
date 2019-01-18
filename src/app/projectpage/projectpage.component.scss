@@ -1,5 +1,5 @@
 .project-background {
-	background-color: #f7f9e4;
+	background-color: #73bc71;
 }
 
 .project-left-content {
@@ -24,7 +24,12 @@
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1rem;}
 }
 
-.gradient-to-page {
+.green-to-cream {
 	background-image: linear-gradient(#73bc71, #f7f9e4);
+	height: 4rem;
+}
+
+.cream-to-green {
+	background-image: linear-gradient(#f7f9e4, #73bc71);
 	height: 4rem;
 }

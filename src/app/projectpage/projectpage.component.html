@@ -1,6 +1,6 @@
-<div class="gradient-to-page"></div>
+<div [class.cream-to-green]="content.background" [class.green-to-cream]="!content.background"></div>
 
-<div class="page-background-holder">
+<div class="page-background-holder" [class.project-background]="content.background">
   
     <div class="page-background">
       <div class="project-left-content">
