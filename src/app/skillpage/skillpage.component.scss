@@ -12,7 +12,7 @@
 }
 
 .skill-background {
-	background-color: #afdfb1; //#598a58;
+	background-color: #73bc71; //#598a58;
 }
 
 .skill-img {
@@ -38,4 +38,9 @@
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
 	text-align: center;
 	font-weight: bold;
+}
+
+.gradient-to-page {
+	background-image: linear-gradient(#f7f9e4, #73bc71);
+	height: 4rem;
 }

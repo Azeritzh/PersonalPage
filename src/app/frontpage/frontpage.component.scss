@@ -1,9 +1,8 @@
 .frontpage-background {
-	background-color: #91c290;
-	background-image: radial-gradient(#68bbd4, #73bc71);
+	background-color:  #6abcc4;//#91c290;
+	background-image: linear-gradient(#68bbd4, #73bc71);
 	height: 100vh;
 	width: calc(100vw - 1rem);
-	background-attachment: fixed;
 	background-repeat: no-repeat;
 	text-align:center;
 }
