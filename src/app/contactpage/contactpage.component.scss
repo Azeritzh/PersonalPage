@@ -1,0 +1,44 @@
+.contact-left-content {
+	padding-top: 3rem;
+}
+
+.contact-right-content {
+	padding-left: 5rem;
+}
+
+.contact-content-header {
+	font-size: 2rem;
+	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
+	text-align: center;
+	font-weight: bold;
+}
+
+.contact-content-text {
+	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
+	font-size: 2rem;
+	text-align: center;
+}
+
+.contact-spacing {
+	margin-top: 6rem;
+}
+
+.gradient-to-page {
+	background-image: linear-gradient(#73bc71, #f7f9e4);
+	height: 4rem;
+}
+
+.contact-image1 {
+	margin-top: 1rem;
+	margin-left:7rem;
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 1rem; margin-left: 12rem;}
+	@media (max-width: 1706px), (max-height: 980px) {margin-top: 1rem; margin-left: 10rem;}
+}
+
+.contact-image2 {
+	position: absolute;
+	margin-top: 20rem;
+	left: 27rem;
+	@media (max-width: 1706px), (max-height: 950px) {margin-top: 17rem; left: 27rem;}
+	@media (max-width: 1706px), (max-height: 980px) {margin-top: 17rem; left: 25rem;}
+}
