@@ -11,13 +11,13 @@
 	text-align: center;
 	height: 100%;
 	display: grid;
-	transform: scaleY(0);
 }
 
 .frontpage-main-header {
 	font-size: 10rem;
 	grid-column-start: 1;
 	grid-row: 2;
+	transform: scaleY(0);
 }
 
 .appear {
@@ -31,7 +31,16 @@
 	color: white;
 	grid-column-start: 1;
 	grid-row: 2;
-	padding-top: 11rem;
+	height: 4rem;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+ 	border-right: 0.3rem solid orange; /* The typwriter cursor */
+  	white-space: nowrap; /* Keeps the content on a single line */
+	  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	  margin-top: 11rem;
+  	letter-spacing: .15em; /* Adjust as needed */
+  	animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
 }
 
 .frontpage-main-arrow {
@@ -71,3 +80,15 @@
 	50% {margin-top: -6rem;}
 	100% {margin-top: -7rem;}
 }
+
+/* The typing effect */
+@keyframes typing {
+	from { width: 0 }
+	to { width: 865px }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: #933232; }
+  }
