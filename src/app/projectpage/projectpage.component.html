@@ -4,31 +4,22 @@
   
     <div class="page-background">
       <div class="project-left-content">
-        <img class="four-image-img four-image-layout1" src="assets/images/idun-start.png">            
-        <img class="four-image-img four-image-layout2" src="assets/images/idun-login.png">
-        <img class="four-image-img four-image-layout3" src="assets/images/idun-template.png">
-        <img class="four-image-img four-image-layout4" src="assets/images/idun-patient.png">
+        <img class="four-image-img four-image-layout1" src={{content.images[0]}}>            
+        <img class="four-image-img four-image-layout2" src={{content.images[1]}}>
+        <img class="four-image-img four-image-layout3" src={{content.images[2]}}>
+        <img class="four-image-img four-image-layout4" src={{content.images[3]}}>
       </div>
     </div>
   
     <div class="page-background">
         <div class="project-right-content">
-            <div class="page-header">Private Healthcare Webapplication</div>
+            <div class="page-header">{{content.title}}</div>
             <div class="page-text-wrapper">
               <div class="page-text project-technology-header">Technologies used:</div>
-              <div class="project-technology-text">&#123; Angular, TypeScript, HTML, SCSS, C#, NodeJS, Jasmine &#125;</div>
+              <div class="project-technology-text">&#123; {{content.technologies}} &#125;</div>
             </div>
-            <div class="page-text-wrapper">
-              <div class="page-text">I've worked on this project as a unpaid part-time job from back in 2015, where it started, until now. My roles in this project was Frontend developer and UI Designer.</div>
-            </div>
-            <div class="page-text-wrapper">
-              <div class="page-text">I've coded on serveral modules throughout the process, where I, among others, have been working on the language and patient journal module.</div>
-            </div>
-            <div class="page-text-wrapper">
-                <div class="page-text">My main task was to design the overall look of the application and make sure every page would be easily accessible for new users.</div>
-            </div>
-            <div class="page-text-wrapper">
-                <div class="page-text">To the left you can see images of the application as well as the template system for the journal module. The project is still on-going to this day.</div>
+            <div *ngFor="let text of content.texts" class="page-text-wrapper">
+              <div class="page-text">{{text}}</div>
             </div>
         </div>
     </div>
