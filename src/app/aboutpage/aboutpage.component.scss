@@ -8,8 +8,18 @@
 
 .about-right-content {
 	padding-left: 5rem;
+	
+}
+
+.about-header {
+	animation: fadein 1s;
 }
 
 .about-left-content {
 	padding-top: 3rem;
+}
+
+@keyframes fadein{
+	from {opacity: 0;}
+	to {opacity: 1;}
 }

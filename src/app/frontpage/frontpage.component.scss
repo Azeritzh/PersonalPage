@@ -1,5 +1,6 @@
 .frontpage-background {
 	background-color: #91c290;
+	background-image: radial-gradient(#68bbd4, #73bc71);
 	height: 100vh;
 	width: calc(100vw - 1rem);
 	background-attachment: fixed;
@@ -11,12 +12,19 @@
 	text-align: center;
 	height: 100%;
 	display: grid;
+	transform: scaleY(0);
 }
 
 .frontpage-main-header {
 	font-size: 10rem;
 	grid-column-start: 1;
 	grid-row: 2;
+}
+
+.appear {
+	transform: scaleY(1);
+	transition: transform 0.6s ease-in;
+	animation: fadein 2s;
 }
 
 .frontpage-main-text {
@@ -29,6 +37,7 @@
 
 .frontpage-main-arrow {
 	margin-top: -5rem;
+	animation: bounce 2s infinite;
 }
 
 .frontpage-arrow-img {
@@ -39,9 +48,9 @@
 .nav-bar {
 	display: flex;
 	justify-content: flex-end;
-	background-color: #91c290;
+	//background-color: #91c290;
 	height: 4rem;
-	border-bottom: 2px solid #749b73;
+	//border-bottom: 2px solid #749b73;
 	position: absolute;
 	width: calc(100vw - 1rem);
 	z-index: 2;
@@ -51,4 +60,15 @@
 	margin-right: 3rem;
 	border-bottom: 2px solid white;
 	color: white;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes bounce {
+	0% {margin-top: -7rem;}
+	50% {margin-top: -6rem;}
+	100% {margin-top: -7rem;}
 }
