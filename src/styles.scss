@@ -67,13 +67,16 @@ body {
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 	text-align: center;
+	font-family: Helvetica, sans-serif;
 }
 
 .page-text {
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
-	font-size: 2rem;
+	font-size: 1.7rem;
 	margin-right: 1rem;
 	margin-left: 5rem;
+	font-family: Helvetica, sans-serif;
+	color: #34393a;
 }
 
 .page-bullet-point {

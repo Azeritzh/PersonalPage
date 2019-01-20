@@ -18,6 +18,7 @@
 	grid-column-start: 1;
 	grid-row: 2;
 	transform: scaleY(0);
+	font-family: Helvetica, sans-serif;
 }
 
 .appear {
@@ -32,15 +33,16 @@
 	grid-column-start: 1;
 	grid-row: 2;
 	height: 4rem;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	overflow: hidden;
  	border-right: 0.3rem solid orange; /* The typwriter cursor */
   	white-space: nowrap; /* Keeps the content on a single line */
-	  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	  margin-top: 11rem;
-  	letter-spacing: .15em; /* Adjust as needed */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	margin-top: 11rem;
+  	letter-spacing: .1em; /* Adjust as needed */
   	animation: 
     typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+	blink-caret .5s step-end infinite;
+	font-family: Helvetica, sans-serif;
 }
 
 .frontpage-main-arrow {
@@ -56,9 +58,7 @@
 .nav-bar {
 	display: flex;
 	justify-content: flex-end;
-	//background-color: #91c290;
 	height: 4rem;
-	//border-bottom: 2px solid #749b73;
 	position: absolute;
 	width: calc(100vw - 1rem);
 	z-index: 2;
@@ -68,6 +68,7 @@
 	margin-right: 3rem;
 	border-bottom: 2px solid white;
 	color: white;
+	font-family: Helvetica, sans-serif;
 }
 
 @keyframes fadein {

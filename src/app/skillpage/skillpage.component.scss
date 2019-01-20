@@ -1,5 +1,5 @@
 .skill-header {
-	font-size: 5rem;
+	font-size: 4.5rem;
 	@media (max-width: 1706px) {font-size: 3rem;}
 	position: absolute;
 	left: 35vw;
@@ -9,6 +9,7 @@
 	padding-right: 1rem;
 	padding-left: 1rem;
 	border-radius: 2rem;
+	font-family: Helvetica, sans-serif;
 }
 
 .skill-background {
@@ -28,6 +29,8 @@
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
 	font-size: 2rem;
 	text-align: center;
+	font-family: Helvetica, sans-serif;
+	color: #34393a;
 }
 
 .skill-text-wrapper {
@@ -39,6 +42,7 @@
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
 	text-align: center;
 	font-weight: bold;
+	font-family: Helvetica, sans-serif;
 }
 
 .gradient-to-page {
