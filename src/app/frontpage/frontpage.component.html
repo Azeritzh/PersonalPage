@@ -1,9 +1,9 @@
 <div class="frontpage-background">
     <div class="nav-bar">
-        <h2 class="nav-bar-header">About</h2>
-        <h2 class="nav-bar-header">Competences</h2>
-        <h2 class="nav-bar-header">Projects</h2>
-        <h2 class="nav-bar-header">Contact</h2>
+        <h2 class="nav-bar-header" (click)="aboutClick.emit()">About</h2>
+        <h2 class="nav-bar-header" (click)="skillClick.emit()">Competences</h2>
+        <h2 class="nav-bar-header" (click)="projectsClick.emit()">Projects</h2>
+        <h2 class="nav-bar-header" (click)="contactClick.emit()">Contact</h2>
       </div>
 
   <div class="frontpage-text-container">

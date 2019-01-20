@@ -1,12 +1,16 @@
 <main #mainElement style="width: 100vw; height: 100vh; overflow-y: auto; overflow-x: hidden; position: relative;">
-	<div class="nav-bar" [class.hidden]="lastScrollPosition<this.aboutpagePos">
-		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.skillpagePos">About</h2>
-		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.projectpagesPos && lastScrollPosition>this.skillpagePos">Competences</h2>
-		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.contactpagePos && lastScrollPosition>this.projectpagesPos">Projects</h2>
-		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition>this.contactpagePos" #navContact>Contact</h2>
+	<div class="nav-bar" [class.appear]="lastScrollPosition>(this.aboutpagePos/2)">
+		<h2 class="nav-bar-header" (click)="scroll(aboutpageRef)" [class.nav-choosen]="lastScrollPosition<this.skillpagePos">About</h2>
+		<h2 class="nav-bar-header" (click)="scroll(skillpageRef)" [class.nav-choosen]="lastScrollPosition<this.projectpagesPos && lastScrollPosition>=this.skillpagePos">Competences</h2>
+		<h2 class="nav-bar-header" (click)="scroll(projectpageRef)" [class.nav-choosen]="lastScrollPosition<this.contactpagePos && lastScrollPosition>=this.projectpagesPos">Projects</h2>
+		<h2 class="nav-bar-header" (click)="scroll(contactpageRef)" [class.nav-choosen]="lastScrollPosition>=this.contactpagePos" #navContact>Contact</h2>
 	</div>
 
-	<app-frontpage #frontpage></app-frontpage>
+	<app-frontpage #frontpage
+		(aboutClick)="scroll(aboutpageRef)"
+		(skillClick)="scroll(skillpageRef)"
+		(projectsClick)="scroll(projectpageRef)"
+		(contactClick)="scroll(contactpageRef)"></app-frontpage>
 	<app-aboutpage #aboutpage></app-aboutpage>
 	<app-skillpage #skillpage></app-skillpage>
 

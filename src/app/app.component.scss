@@ -1,23 +1,27 @@
 .nav-bar {
 	display: flex;
 	justify-content: flex-end;
-	background-color: #91c290;
 	height: 4rem;
 	position: fixed;
 	width: calc(100vw - 1rem);
 	z-index: 2;
-	background-color: #68bbd4;
+	background-color: #6fbc97;
+	max-height: 0;
+	transition: max-height 0.5s ease-out;
+	overflow: hidden;
+	color: white;
 }
 
 .nav-bar-header {
 	margin-right: 3rem;
-	border-bottom: 2px solid white;
-	color: white;
+	
 	font-family: Helvetica, sans-serif;
 }
 
-div.hidden {
-	display: none;
+div.appear {
+	max-height: 4rem;
+	transition: max-height 0.5s ease-in;
+	color: white;
 }
 
 .projectpage {
@@ -27,5 +31,4 @@ div.hidden {
 
 .nav-choosen {
 	color: black;
-	border-bottom: 2px solid black;
 }

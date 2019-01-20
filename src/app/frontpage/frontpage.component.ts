@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-frontpage',
@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./frontpage.component.scss']
 })
 export class FrontpageComponent implements OnInit {
+  @Output() aboutClick = new EventEmitter()
+  @Output() skillClick = new EventEmitter()
+  @Output() projectsClick = new EventEmitter()
+  @Output() contactClick = new EventEmitter()
 
   constructor() { }
 
@@ -16,5 +20,4 @@ export class FrontpageComponent implements OnInit {
   transitionText() {
     document.getElementById("frontpage-header").classList.add("appear")
   }
-
 }
