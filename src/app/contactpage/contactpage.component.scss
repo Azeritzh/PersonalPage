@@ -48,3 +48,9 @@
 	@media (max-width: 1706px), (max-height: 950px) {margin-top: 17rem; left: 27rem;}
 	@media (max-width: 1706px), (max-height: 980px) {margin-top: 17rem; left: 25rem;}
 }
+
+.contact-content-holder {
+	height: calc(100vh - 10rem);
+	@media (max-height: 950px) {height: 40rem;}
+	@media (max-height: 990px) {height: 40rem;}
+}

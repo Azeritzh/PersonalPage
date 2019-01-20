@@ -15,6 +15,7 @@
 
 .frontpage-main-header {
 	font-size: 10rem;
+	@media (max-width: 1500px), (max-height: 980px) {font-size: 7rem;}
 	grid-column-start: 1;
 	grid-row: 2;
 	transform: scaleY(0);
@@ -29,6 +30,7 @@
 
 .frontpage-main-text {
 	font-size: 3rem;
+	@media (max-width: 1500px), (max-height: 980px) {font-size: 2rem; margin-top: 8rem;}
 	color: white;
 	grid-column-start: 1;
 	grid-row: 2;

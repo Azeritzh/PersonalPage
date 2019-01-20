@@ -1,8 +1,8 @@
 .skill-header {
-	font-size: 4.5rem;
-	@media (max-width: 1706px) {font-size: 3rem;}
+	font-size: 4rem;
+	@media (max-width: 1500px), (max-height: 980px) {font-size: 2.5rem; left: calc(50vw - 11.5rem)}
 	position: absolute;
-	left: 35vw;
+	left:  calc(50vw - 16rem);
 	margin-top: 3rem;
 	background-color: #AFDFB1;
 	padding-bottom: 1rem;
@@ -27,6 +27,7 @@
 
 .skill-content-text {
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
+	@media (max-width: 1500px), (max-height: 980px) {font-size: 1.3rem;}
 	font-size: 2rem;
 	text-align: center;
 	font-family: Helvetica, sans-serif;
@@ -40,6 +41,7 @@
 .skill-content-header {
 	font-size: 2rem;
 	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
+	@media (max-width: 1500px), (max-height: 980px) {font-size: 1.3rem;}
 	text-align: center;
 	font-weight: bold;
 	font-family: Helvetica, sans-serif;
