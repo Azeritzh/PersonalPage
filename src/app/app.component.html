@@ -1,9 +1,19 @@
+<main #mainElement style="width: 100vw; height: 100vh; overflow-y: auto; overflow-x: hidden; position: relative;">
+	<div class="nav-bar" [class.hidden]="lastScrollPosition<this.aboutpagePos">
+		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.skillpagePos">About</h2>
+		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.projectpagesPos && lastScrollPosition>this.skillpagePos">Competences</h2>
+		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition<this.contactpagePos && lastScrollPosition>this.projectpagesPos">Projects</h2>
+		<h2 class="nav-bar-header" [class.nav-choosen]="lastScrollPosition>this.contactpagePos" #navContact>Contact</h2>
+	</div>
 
+	<app-frontpage #frontpage></app-frontpage>
+	<app-aboutpage #aboutpage></app-aboutpage>
+	<app-skillpage #skillpage></app-skillpage>
 
-<app-frontpage></app-frontpage>
-<app-aboutpage></app-aboutpage>
-<app-skillpage></app-skillpage>
-<app-projectpage *ngFor="let content of list" [content]="content"></app-projectpage>
-<app-contactpage></app-contactpage>
+	<div #projectpage class="projectpage">
+		<app-projectpage *ngFor="let content of list" [content]="content"></app-projectpage>
+	</div>
+	<app-contactpage #contactpage></app-contactpage>
 
-<router-outlet></router-outlet>
+	<router-outlet></router-outlet>
+</main>

@@ -1,12 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, OnInit, ElementRef } from '@angular/core'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
+  @ViewChild("mainElement") mainElement
+  @ViewChild("aboutpage", { read: ElementRef }) aboutpage: ElementRef
+  @ViewChild("skillpage", { read: ElementRef }) skillpage: ElementRef
+  @ViewChild("projectpage", { read: ElementRef }) projectpage: ElementRef
+  @ViewChild("contactpage", { read: ElementRef }) contactpage: ElementRef
+
   title = 'PersonalPage';
+  lastScrollPosition = 0;
+  aboutpagePos
+  skillpagePos
+  projectpagesPos
+  // contactpagePos
 
   list = [
     {
@@ -37,7 +48,22 @@ export class AppComponent {
         "assets/images/thesis-demonstration.png",
         "assets/images/thesis-unity.png",
         "assets/images/thesis-code.png"],
-        background: "true"
+      background: "true"
     }
   ]
+
+  ngOnInit() {
+    this.mainElement.nativeElement.addEventListener("scroll", () => {
+      this.lastScrollPosition = this.mainElement.nativeElement.scrollTop
+    })
+    this.aboutpagePos = this.aboutpage.nativeElement.offsetTop
+    this.skillpagePos = this.skillpage.nativeElement.offsetTop
+    this.projectpagesPos = this.projectpage.nativeElement.offsetTop
+    // const height = this.projectpage.nativeElement.getBoundingClientRect().height
+    // this.contactpagePos = this.projectpagesPos + height // this.contactpage.nativeElement.offsetTop
+  }
+
+  get contactpagePos() {
+    return this.contactpage.nativeElement.offsetTop - (this.aboutpagePos / 2)
+  }
 }
