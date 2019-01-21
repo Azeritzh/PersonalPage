@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
     },
     {
       title: "Master Thesis",
-      technologies: "Unity, VR technology (Oculus Rift), Hand-motion sensor (Leap Motion)",
+      technologies: "Unity, VR-tech (Oculus Rift), Gesture sensor (Leap Motion)",
       texts: [
         "I finished my master thesis back in July 2018 with a fellow student. The project involved rehabilitation of neurological patients through stimulation of the mirror neurons in the brain through VR. ",
         "The whole project was coded in Unity and incorporated the Oculus Rift as sensor and the Leap Motion as actuator for the patient.",
