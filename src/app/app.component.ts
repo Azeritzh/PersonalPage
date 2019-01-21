@@ -17,7 +17,6 @@ export class AppComponent implements OnInit {
   aboutpagePos
   skillpagePos
   projectpagesPos
-  // contactpagePos
 
   list = [
     {

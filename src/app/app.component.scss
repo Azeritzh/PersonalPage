@@ -14,8 +14,12 @@
 
 .nav-bar-header {
 	margin-right: 3rem;
-	
+	cursor: pointer;
 	font-family: Helvetica, sans-serif;
+}
+
+.nav-bar-header:hover {
+	color: black;
 }
 
 div.appear {
