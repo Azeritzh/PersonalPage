@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core'
   styleUrls: ['./projectpage.component.scss']
 })
 export class ProjectpageComponent implements OnInit {
-  @Input() content: {title: String, technologies: String, texts: String[], images: String[]}
+  @Input() content: {title: String, technologies: String, texts: String[], images: String[], background: boolean}
 
   constructor() { }
 

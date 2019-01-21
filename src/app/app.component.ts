@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
         "assets/images/idun-login.png",
         "assets/images/idun-template.png",
         "assets/images/idun-patient.png"],
-      background: ""
+      background: false
     },
     {
       title: "Master Thesis",
@@ -47,7 +47,7 @@ export class AppComponent implements OnInit {
         "assets/images/thesis-demonstration.png",
         "assets/images/thesis-unity.png",
         "assets/images/thesis-code.png"],
-      background: "true"
+      background: true
     }
   ]
 
