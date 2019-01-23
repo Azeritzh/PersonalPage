@@ -77,6 +77,12 @@
 	color: black;
 }
 
+.frontpage_logo {
+	position: absolute;
+	width: 4rem;
+	margin: 0.5rem;
+}
+
 @keyframes fadein {
 	from {opacity: 0;}
 	to {opacity: 1;}

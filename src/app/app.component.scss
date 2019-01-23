@@ -10,6 +10,7 @@
 	transition: max-height 0.5s ease-out;
 	overflow: hidden;
 	color: white;
+	box-shadow: -6px 0px 20px 0 #4d5969;
 }
 
 .nav-bar-header {
@@ -22,7 +23,16 @@
 	color: black;
 }
 
-div.appear {
+.frontpage_logo {
+	position: fixed;
+	width: 4rem;
+	z-index: 3;
+	max-height: 0;
+	transition: max-height 0.5s ease-out;
+	margin-left: 0.5rem;
+}
+
+.appear {
 	max-height: 4rem;
 	transition: max-height 0.5s ease-in;
 	color: white;
