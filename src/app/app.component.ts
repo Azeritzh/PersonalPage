@@ -30,7 +30,7 @@ export class AppComponent implements OnInit {
       images: [
         "assets/images/idun-start.png",
         "assets/images/idun-login.png",
-        "assets/images/idun-template.png",
+        "assets/images/idun-patient.png",
         "assets/images/idun-patient.png"],
       background: false
     },
