@@ -4,7 +4,7 @@
 	height: 100vh;
 	width: 100vw;
 	background-repeat: no-repeat;
-	text-align:center;
+	//text-align:center;
 }
 
 .frontpage-text-container {
@@ -16,7 +16,7 @@
 .frontpage-main-header {
 	font-size: 10rem;
 	@media (max-width: 1500px), (max-height: 980px) {font-size: 7rem;}
-	grid-column-start: 1;
+	grid-column-start: 2;
 	grid-row: 2;
 	transform: scaleY(0);
 	font-family: Helvetica, sans-serif;
@@ -29,10 +29,10 @@
 }
 
 .frontpage-main-text {
-	font-size: 3rem;
+	font-size: 2rem;
 	@media (max-width: 1500px), (max-height: 980px) {font-size: 2rem; margin-top: 8rem;}
 	color: white;
-	grid-column-start: 1;
+	grid-column-start: 2;
 	grid-row: 2;
 	height: 4rem;
 	overflow: hidden;
@@ -50,6 +50,7 @@
 .frontpage-main-arrow {
 	margin-top: -5rem;
 	animation: bounce 2s infinite;
+	text-align: center;
 }
 
 .frontpage-arrow-img {
@@ -83,6 +84,12 @@
 	margin: 0.5rem;
 }
 
+.frontpage-background-img {
+	height: 100vh;
+	position: absolute;
+	margin-left: 1rem;
+}
+
 @keyframes fadein {
 	from {opacity: 0;}
 	to {opacity: 1;}
@@ -97,7 +104,7 @@
 /* The typing effect */
 @keyframes typing {
 	from { width: 0 }
-	to { width: 865px }
+	to { width: 567px }
   }
   
   /* The typewriter cursor effect */
