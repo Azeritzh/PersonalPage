@@ -1,25 +1,35 @@
 .frontpage-background {
-	background-color:  #6abcc4;
-	background-image: linear-gradient(#68bbd4, #73bc71);
+	background-color:  #5bbbd3;
 	height: 100vh;
 	width: 100vw;
-	background-repeat: no-repeat;
-	//text-align:center;
+	background-repeat: no-repeat
 }
 
 .frontpage-text-container {
-	text-align: center;
 	height: 100%;
 	display: grid;
 }
 
 .frontpage-main-header {
-	font-size: 10rem;
-	@media (max-width: 1500px), (max-height: 980px) {font-size: 7rem;}
-	grid-column-start: 2;
+	font-size: 4rem;
+    margin-left: 12rem;
+	grid-column-start: 1;
 	grid-row: 2;
 	transform: scaleY(0);
 	font-family: Helvetica, sans-serif;
+	color: white;
+}
+
+.frontpage-text {
+	grid-column-start: 1;
+	grid-row: 2;
+	margin-top: 4rem;
+	margin-left: 12rem;
+	color: white;
+}
+
+.frontpage-text-extra {
+	margin-top: 5.5rem;
 }
 
 .appear {
@@ -32,7 +42,7 @@
 	font-size: 2rem;
 	@media (max-width: 1500px), (max-height: 980px) {font-size: 2rem; margin-top: 8rem;}
 	color: white;
-	grid-column-start: 2;
+	grid-column-start: 1;
 	grid-row: 2;
 	height: 4rem;
 	overflow: hidden;
@@ -72,22 +82,17 @@
 	color: white;
 	font-family: Helvetica, sans-serif;
 	cursor: pointer;
+	font-weight: unset;
 }
 
 .nav-bar-header:hover {
-	color: black;
+	color: #d8703b;
 }
 
 .frontpage_logo {
 	position: absolute;
 	width: 4rem;
 	margin: 0.5rem;
-}
-
-.frontpage-background-img {
-	height: 100vh;
-	position: absolute;
-	margin-left: 1rem;
 }
 
 @keyframes fadein {

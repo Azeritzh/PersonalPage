@@ -74,7 +74,7 @@ main::-webkit-scrollbar-thumb {
 //Styling for text page
 .page-header {
 	font-size: 4rem;
-	@media (max-width: 1500px), (max-height: 980px) {font-size: 3rem;}
+	//@media (max-width: 1500px), (max-height: 980px) {font-size: 3rem;}
 	margin-top: 3rem;
 	margin-bottom: 2rem;
 	text-align: center;
@@ -83,8 +83,8 @@ main::-webkit-scrollbar-thumb {
 }
 
 .page-text {
-	@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
-	@media (max-width: 1500px), (max-height: 980px) {font-size: 1.3rem;}
+	//@media (max-width: 1706px), (max-height: 980px) {font-size: 1.5rem;}
+	//@media (max-width: 1500px), (max-height: 980px) {font-size: 1.3rem;}
 	font-size: 1.7rem;
 	margin-right: 1rem;
 	margin-left: 5rem;
