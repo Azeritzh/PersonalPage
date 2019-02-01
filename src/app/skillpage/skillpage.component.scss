@@ -12,10 +12,6 @@
 	font-weight: bold;
 }
 
-.skill-background {
-	background-color: #73bc71;
-}
-
 .skill-img {
 	height: 15rem;
 	margin-left: calc(25vw - 8rem);
@@ -47,7 +43,30 @@
 	font-family: Helvetica, sans-serif;
 }
 
-.gradient-to-page {
-	background-image: linear-gradient(#f7f9e4, #73bc71);
-	height: 4rem;
+.skillpage-topcontent-container {
+	display: flex;
+	margin-top: 4rem;
+	text-align: left;
+}
+
+.skillpage-bottomcontent-container {
+	display: flex;
+	text-align: right;
+}
+
+.skillpage-img {
+	height: 20rem;
+	flex-grow: 1;
+}
+
+.skill-text-holder {
+	flex-grow: 1;
+}
+
+.skill-text-holder-top {
+	padding-top: 1.5rem;
+}
+
+.skill-text-holder-bottom {
+	padding-top: 4.5rem;
 }
