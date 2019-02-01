@@ -5,7 +5,7 @@
 	position: fixed;
 	width: 100vw;
 	z-index: 2;
-	background-color: #6fbc97;
+	background-color: #5bbbd3;
 	max-height: 0;
 	transition: max-height 0.5s ease-out;
 	overflow: hidden;
@@ -17,24 +17,26 @@
 	margin-right: 3rem;
 	cursor: pointer;
 	font-family: Helvetica, sans-serif;
+	font-weight: unset;
+	margin-top: 0.5rem;
 }
 
 .nav-bar-header:hover {
-	color: black;
+	color: #d8703b;
 }
 
 .frontpage_logo {
 	position: fixed;
-	width: 4rem;
+	width: 3rem;
 	z-index: 3;
 	max-height: 0;
-	transition: max-height 0.5s ease-out;
+	transition: max-height 0.3s ease-out;
 	margin-left: 0.5rem;
 }
 
 .appear {
-	max-height: 4rem;
-	transition: max-height 0.5s ease-in;
+	max-height: 3rem;
+	transition: max-height 0.3s ease-in;
 	color: white;
 }
 
@@ -44,5 +46,5 @@
 }
 
 .nav-choosen {
-	color: black;
+	color: #d8703b;
 }
