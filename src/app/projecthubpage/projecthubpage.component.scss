@@ -1,0 +1,46 @@
+.project-block-container {
+	text-align: center;
+	width: calc(100vw - 4rem);
+	margin-top: 3rem;
+}
+
+.project-block-holder {
+	background-color:  blue;
+	width: 18rem;
+	height: 18rem;
+	border-radius: 2rem;
+	margin-left: 3rem;
+	display: inline-block;
+}
+
+.project-block-holder-lightblue {
+	background-color: #5bbbd3;
+}
+
+.project-block-holder-blue {
+	background-color: #3552a0;
+}
+
+.project-block-holder-grey {
+	background-color: #595f6d;
+}
+
+.project-block-holder-orange {
+	background-color: #d8703b;
+}
+
+.project-block-text {
+	color: white;
+}
+
+.project-block-text-container {
+	position: absolute;
+	width: 18rem;
+	height: 18rem;
+	display: table;
+}
+
+.project-block-text-holder {
+	display: table-cell;
+	vertical-align: middle;
+}

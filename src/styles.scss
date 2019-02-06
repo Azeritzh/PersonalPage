@@ -23,6 +23,7 @@ main::-webkit-scrollbar-thumb {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: #ffffff;
+	display: table;
 }
 
 .page-background {
@@ -108,4 +109,9 @@ main::-webkit-scrollbar-thumb {
 .bold-text {
 	display: inline-block;
 	font-weight: bold;
+}
+
+.page-vertical-center {
+	display: table-cell;
+	vertical-align: middle;
 }
