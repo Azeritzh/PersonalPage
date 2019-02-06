@@ -52,7 +52,6 @@
 }
 
 .timeline-content-holder {
-	//background-color: blue;
 	width: calc(100vw - 3.5rem);
 	margin-left: 1rem;
 	height: calc(50vh - 2.5rem);
@@ -70,25 +69,25 @@
 .timeline-bubble-htx {
 	background-color: #5bbbd3;
 	margin-left: calc(14vw - 7.5rem);
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 
 .timeline-bubble-learning {
 	background-color: #d8703b;
 	margin-left: calc(49vw - 7.5rem);
-	margin-top: 2rem;
+	margin-top: 4rem;
 }
 
 .timeline-bubble-robot {
 	background-color: #595f6d;
 	margin-left: calc(34vw - 7.5rem);
-	margin-top: calc(50vh - 19.5rem);
+	margin-top: calc(50vh - 21.5rem);
 }
 
 .timeline-bubble-idun {
 	background-color: #5bbbd3;
 	margin-left: calc(77vw - 7.5rem);
-	margin-top: calc(50vh - 19.5rem);
+	margin-top: calc(50vh - 21.5rem);
 }
 
 .text-bubble {
@@ -98,4 +97,43 @@
 	margin-left: 2rem;
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.timeline-text {
+	width: 15rem;
+	margin-top: 0.5rem;
+	
+}
+
+.timeline-text-holder {
+	position: absolute;
+	text-align: center;
+}
+
+.timeline-text-holder-top {
+	margin-top: calc(50vh - 172px);
+}
+
+.timeline-text-robot {
+	margin-left: calc(34vw - 7.5rem);
+}
+
+.timeline-text-idun {
+	margin-left: calc(77vw - 10rem);
+}
+
+.timeline-text-htx {
+	margin-left: calc(14vw - 10rem);
+}
+
+.timeline-text-learning {
+	margin-left: calc(49vw - 10rem);
+}
+
+.timeline-text-width {
+	width: 20rem;
+}
+
+.timeline-text-year {
+	font-weight: bold;
 }
