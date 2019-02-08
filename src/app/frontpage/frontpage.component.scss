@@ -26,6 +26,7 @@
 	margin-top: 4rem;
 	margin-left: 12rem;
 	color: white;
+	z-index: 1;
 }
 
 .frontpage-text-extra {
@@ -66,6 +67,7 @@
 .frontpage-arrow-img {
 	height: 4rem;
 	width: 5rem;
+	z-index: 1;
 }
 
 .nav-bar {
@@ -93,6 +95,53 @@
 	position: absolute;
 	width: 4rem;
 	margin: 0.5rem;
+}
+
+.frontpage-background-img-holder {
+	overflow: hidden;
+    height: 100vh;
+    position: absolute;
+}
+
+.frontpage-background-img {
+	width: 100vw;
+    overflow: hidden;
+	opacity: 0.6;
+}
+
+.frontpage-custom-icon {
+	position: absolute;
+	width: 10rem;
+}
+
+.frontpage-custom-icon-aquarium {
+	margin-left: 70vw;
+	margin-top: 15vh;
+	width: 15rem;
+}
+
+.frontpage-custom-icon-laptop {
+	margin-left: 50vw;
+	margin-top: 50vh;
+	width: 20rem;
+}
+
+.frontpage-custom-icon-notes {
+	margin-left: 30vw;
+	margin-top: 20vh;
+	width: 20rem;
+}
+
+.frontpage-custom-icon-succulent {
+	margin-left: 20vw;
+	margin-top: 70vh;
+	width: 7rem;
+}
+
+.frontpage-custom-icon-drawings {
+	margin-left: 75vw;
+	margin-top: 60vh;
+	width: 20rem;
 }
 
 @keyframes fadein {
