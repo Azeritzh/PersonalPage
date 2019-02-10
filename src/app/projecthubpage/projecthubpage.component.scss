@@ -1,15 +1,15 @@
 .project-block-container {
 	text-align: center;
-	width: calc(100vw - 4rem);
-	margin-top: 3rem;
+	width: 100vw;
+	height: 5rem;
 }
 
 .project-block-holder {
 	background-color:  blue;
-	width: 18rem;
-	height: 18rem;
-	border-radius: 2rem;
-	margin-left: 3rem;
+	width: 14rem;
+	height: 5rem;
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 2rem;
 	display: inline-block;
 }
 
@@ -35,12 +35,21 @@
 
 .project-block-text-container {
 	position: absolute;
-	width: 18rem;
-	height: 18rem;
+	width: 14rem;
+	height: 5rem;
 	display: table;
 }
 
 .project-block-text-holder {
 	display: table-cell;
 	vertical-align: middle;
+}
+
+.project-container {
+	background-color: #dae1e2;
+    width: calc(100vw - 22.6rem);
+    height: calc(100vh - 10rem);
+	margin-left: 11.3rem;
+	border-bottom-left-radius: 2rem;
+	border-bottom-right-radius: 2rem;
 }
