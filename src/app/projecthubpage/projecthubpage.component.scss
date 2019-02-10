@@ -1,16 +1,16 @@
 .project-block-container {
 	text-align: center;
 	width: 100vw;
-	height: 5rem;
+	height: 4rem;
 }
 
 .project-block-holder {
-	background-color:  blue;
 	width: 14rem;
-	height: 5rem;
+	height: 4rem;
 	border-top-left-radius: 2rem;
 	border-top-right-radius: 2rem;
 	display: inline-block;
+	cursor: pointer;
 }
 
 .project-block-holder-lightblue {
@@ -48,7 +48,7 @@
 .project-container {
 	background-color: #dae1e2;
     width: calc(100vw - 22.6rem);
-    height: calc(100vh - 10rem);
+    height: calc(100vh - 9rem);
 	margin-left: 11.3rem;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
