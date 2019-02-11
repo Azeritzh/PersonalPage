@@ -71,16 +71,6 @@ main::-webkit-scrollbar-thumb {
 }
 
 //Styling for text page
-.page-header {
-	font-size: 4rem;
-	//@media (max-width: 1500px), (max-height: 980px) {font-size: 3rem;}
-	margin-top: 3rem;
-	margin-bottom: 2rem;
-	text-align: center;
-	font-family: Helvetica, sans-serif;
-	font-weight: bold;
-}
-
 .page-text {
 	//font-size: 1.7rem;
 	//margin-right: 1rem;
@@ -98,7 +88,8 @@ main::-webkit-scrollbar-thumb {
 
 .page-text-wrapper {
 	margin-bottom: 1.5rem;
-	margin-right: 6rem;
+	text-align: center;
+	background-color: #5bbbd3;
 }
 
 .orange-text {

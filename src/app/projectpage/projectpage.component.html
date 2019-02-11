@@ -1,26 +1,9 @@
-<div [class.cream-to-green]="content.background" [class.green-to-cream]="!content.background"></div>
-
-<div class="page-background-holder" [class.project-background]="content.background">
-  
-    <div class="page-background">
-      <div class="project-left-content">
-        <img class="four-image-img four-image-layout1" src={{content.images[0]}}>            
-        <img class="four-image-img four-image-layout2" src={{content.images[1]}}>
-        <img class="four-image-img four-image-layout3" src={{content.images[2]}}>
-        <img class="four-image-img four-image-layout4" src={{content.images[3]}}>
-      </div>
-    </div>
-  
-    <div class="page-background">
-        <div class="project-right-content">
-            <div class="page-header">{{content.title}}</div>
-            <div class="page-text-wrapper">
-              <div class="page-text project-technology-header">Technologies used:</div>
-              <div class="project-technology-text">&#123; {{content.technologies}} &#125;</div>
-            </div>
-            <div *ngFor="let text of content.texts" class="page-text-wrapper">
-              <div class="page-text">{{text}}</div>
-            </div>
-        </div>
-    </div>
+<div class="project-right-content">
+  <div class="page-text-wrapper">
+    <h1 class="page-text project-header">{{content.title}}</h1>
+    <h2 class="page-text project-technologies">Technologies: &#123; {{content.technologies}} &#125;</h2>
   </div>
+  <div *ngFor="let text of content.texts" class="project-text-holder">
+    <h2 class="page-text">{{text}}</h2>
+  </div>
+</div>
