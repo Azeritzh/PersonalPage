@@ -1,6 +1,7 @@
 .project-text-holder {
 	width: 50%;
 	margin-left: 2rem;
+	float: left;
 }
 
 .project-header {
@@ -15,4 +16,14 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	color: white;
+}
+
+.project-img {
+	width: calc(50vw - 22rem);
+}
+
+.project-img-holder {
+	width: calc(50vw - 20rem);
+    margin-left: 48vw;
+	position: absolute;
 }
