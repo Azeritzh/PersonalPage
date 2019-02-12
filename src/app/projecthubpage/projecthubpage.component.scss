@@ -1,11 +1,13 @@
 .project-block-container {
 	text-align: center;
-	width: 100vw;
+	width: calc(100vw - 20rem);
+	margin-left: 10rem;
 	height: 4rem;
+	display: flex;
 }
 
 .project-block-holder {
-	width: 14rem;
+	flex-grow: 1;
 	height: 4rem;
 	border-top-left-radius: 2rem;
 	border-top-right-radius: 2rem;
@@ -33,23 +35,11 @@
 	color: white;
 }
 
-.project-block-text-container {
-	position: absolute;
-	width: 14rem;
-	height: 5rem;
-	display: table;
-}
-
-.project-block-text-holder {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 .project-container {
 	background-color: #dae1e2;
-    width: calc(100vw - 22.6rem);
+    width: calc(100vw - 20rem);
     height: calc(100vh - 9rem);
-	margin-left: 11.3rem;
+	margin-left: 10rem;
 	border-bottom-left-radius: 2rem;
 	border-bottom-right-radius: 2rem;
 }

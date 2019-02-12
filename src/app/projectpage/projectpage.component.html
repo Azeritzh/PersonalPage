@@ -1,9 +1,12 @@
-<div class="project-right-content">
+<div class="project-content">
   <div class="page-text-wrapper">
     <h1 class="page-text project-header">{{content.title}}</h1>
     <h2 class="page-text project-technologies">Technologies: &#123; {{content.technologies}} &#125;</h2>
   </div>
   <div *ngFor="let text of content.texts" class="project-text-holder">
     <h2 class="page-text">{{text}}</h2>
+  </div>
+  <div>
+    <img src="assets/images/myself.jpg" style="width: 20rem;">
   </div>
 </div>
