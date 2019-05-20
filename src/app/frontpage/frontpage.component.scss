@@ -1,36 +1,35 @@
+@import "../../variables.scss";
+
 .frontpage-background {
-	background-color:  #5bbbd3;
-	height: 100vh;
-	width: 100vw;
+	background-color: #7faaaa;
+	height: 100%;
 	background-repeat: no-repeat
 }
 
-.frontpage-text-container {
-	height: 100%;
-	display: grid;
+.text-container {
+	@include forDevice(handhelds) {
+		margin-left: 2rem;
+	}
+	@include forDevice(tablets) {
+		margin-left: 4rem;
+	}
+	@include forDevice(medium-screens) {
+		margin-left: 14rem;
+	}
 }
 
 .frontpage-main-header {
 	font-size: 4rem;
-    margin-left: 12rem;
-	grid-column-start: 1;
-	grid-row: 2;
 	transform: scaleY(0);
 	font-family: Helvetica, sans-serif;
 	color: white;
 }
 
-.frontpage-text {
-	grid-column-start: 1;
-	grid-row: 2;
-	margin-top: 4rem;
-	margin-left: 12rem;
+.front {
 	color: white;
 	z-index: 1;
-}
-
-.frontpage-text-extra {
-	margin-top: 5.5rem;
+	max-width: 50%;
+	margin: 0;
 }
 
 .appear {
@@ -68,33 +67,6 @@
 	height: 4rem;
 	width: 5rem;
 	z-index: 1;
-}
-
-.nav-bar {
-	display: flex;
-	justify-content: flex-end;
-	height: 4rem;
-	position: absolute;
-	width: calc(100vw - 1rem);
-	z-index: 2;
-}
-
-.nav-bar-header {
-	margin-right: 3rem;
-	color: white;
-	font-family: Helvetica, sans-serif;
-	cursor: pointer;
-	font-weight: unset;
-}
-
-.nav-bar-header:hover {
-	color: #d8703b;
-}
-
-.frontpage_logo {
-	position: absolute;
-	width: 4rem;
-	margin: 0.5rem;
 }
 
 .frontpage-background-img-holder {

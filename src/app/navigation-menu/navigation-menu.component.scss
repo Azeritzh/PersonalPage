@@ -1,3 +1,31 @@
+@import "../../variables.scss";
+
 .menu-spacer {
     flex: 1 1 auto;
+  }
+
+  .main-container {
+    overflow-x: hidden;
+  }
+
+  .frontpage_logo {
+    width: 3.5rem;
+    margin: 0.5rem;
+
+    @include forDevice(handhelds) {
+      width: 3rem;
+    }
+  }
+
+  :host::ng-deep.navbar-header span {
+    color: white !important;
+    font-size: 1.5rem;
+  }
+
+  :host::ng-deep.navbar-menu-button span {
+    color: white !important;
+  }
+
+  .navbar-title {
+    color: white;
   }

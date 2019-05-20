@@ -9,20 +9,26 @@
 
 body {
 	margin: 0;
-	overflow-x: hidden
+	overflow: hidden;
 }
 
-main::-webkit-scrollbar {
-	width: 1.3rem;
-	background-color: lightgrey;
+p, span, h1, h2, h3, h4 {
+	font-family: Helvetica, sans-serif;
+	font-weight: unset;
+	color: #3552a0;
 }
 
-main::-webkit-scrollbar-thumb {
-	background-color: #3c6b5d;
-	background-image: linear-gradient(#73bc76, #68bbd2);
-	border-radius: 1rem;
-	border: 3px solid rgba(82, 82, 82, 0.22);
-}
+// main::-webkit-scrollbar {
+// 	width: 1.3rem;
+// 	background-color: lightgrey;
+// }
+
+// main::-webkit-scrollbar-thumb {
+// 	background-color: #3c6b5d;
+// 	background-image: linear-gradient(#73bc76, #68bbd2);
+// 	border-radius: 1rem;
+// 	border: 3px solid rgba(82, 82, 82, 0.22);
+// }
 
 //Styling for general page layout
 .page-background-holder {
@@ -41,60 +47,13 @@ main::-webkit-scrollbar-thumb {
 	overflow: hidden;
 }
 
-//Styling for four image layout
-.four-image-layout1 {
-	margin-top: 11rem;
-	margin-left:7rem;
-	@media (max-width: 1706px), (max-height: 950px) {margin-top: 8.5rem; margin-left: 12rem;}
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 13.5rem; margin-left: 6rem;}
-}
-
-.four-image-layout2 {
-	position: absolute;
-	left: 27rem;
-	@media (max-width: 1706px), (max-height: 980px) { left: 23rem; margin-top: 4rem;}
-}
-
-.four-image-layout3 {
-	position: absolute;
-	margin-top: 22.5rem;
-	left: 27rem;
-	@media (max-width: 1706px), (max-height: 950px) {margin-top: 17rem; left: 27rem;}
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 22.5rem; left: 23rem;}
-}
-
-.four-image-layout4 {
-	position: absolute;
-	margin-top: 33.5rem;
-	left: 7rem;
-	@media (max-width: 1706px), (max-height: 950px) {margin-top: 25.5rem; left: 12rem}
-	@media (max-width: 1706px), (max-height: 980px) {margin-top: 32rem; left: 6rem;}
-}
-
-.four-image-img {
-	height: 20rem;
-	@media (max-width: 1706px), (max-height: 950px) {height: 17rem;}
-	@media (max-width: 1706px), (max-height: 980px) {height: 16rem;}
-	filter: drop-shadow(0 0 1rem rgb(63, 78, 95));
-}
-
-//Styling for text page
-.page-text {
-	//font-size: 1.7rem;
-	//margin-right: 1rem;
-	//margin-left: 5rem;
-	font-family: Helvetica, sans-serif;
-	color: #3552a0;
-	font-weight: unset;
-}
-
 .page-bullet-point {
 	height: 4rem;
 	@media (max-width: 1706px), (max-height: 980px) {height: 3rem;}
 	position: absolute;
 }
 
-.page-text-wrapper {
+.wrapper {
 	margin-bottom: 1.5rem;
 	text-align: center;
 	background-color: #5bbbd3;
@@ -114,22 +73,3 @@ main::-webkit-scrollbar-thumb {
 	display: table-cell;
 	vertical-align: middle;
 }
-
-/*Mixins for Reponsiveness*/
-@mixin forDevice($device) {
-	@if $device ==  handhelds {
-		@media screen and (max-width: 599px) { @content };
-	}
-	@else if $device == tablet-portrait {
-		@media screen and (min-width: 600px) { @content };
-	}
-	@else if $device == tablet-landscape {
-		@media screen and (min-width: 900px) { @content };
-	}
-	@else if $device == computer-screens {
-		@media screen and (min-width: 1200px) { @content };
-	}
-	@else if $device == large-screens {
-		@media screen and (min-width: 1800px) { @content };
-	}
-};

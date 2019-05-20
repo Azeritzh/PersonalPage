@@ -19,12 +19,12 @@ export class AppComponent implements OnInit {
   projectpagesPos
 
   ngOnInit() {
-    this.mainElement.nativeElement.addEventListener("scroll", () => {
-      this.lastScrollPosition = this.mainElement.nativeElement.scrollTop
-    })
-    this.aboutpagePos = this.aboutpageRef.nativeElement.offsetTop
-    this.skillpagePos = this.skillpageRef.nativeElement.offsetTop
-    this.projectpagesPos = this.projectpageRef.nativeElement.offsetTop
+    // this.mainElement.nativeElement.addEventListener("scroll", () => {
+    //   this.lastScrollPosition = this.mainElement.nativeElement.scrollTop
+    // })
+    // this.aboutpagePos = this.aboutpageRef.nativeElement.offsetTop
+    // this.skillpagePos = this.skillpageRef.nativeElement.offsetTop
+    // this.projectpagesPos = this.projectpageRef.nativeElement.offsetTop
   }
 
   get contactpagePos() {
