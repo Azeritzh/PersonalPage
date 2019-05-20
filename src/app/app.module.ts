@@ -10,6 +10,12 @@ import { ProjectpageComponent } from './projectpage/projectpage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { TimelinepageComponent } from './timelinepage/timelinepage.component';
 import { ProjecthubpageComponent } from './projecthubpage/projecthubpage.component';
+import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
+
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -20,11 +26,15 @@ import { ProjecthubpageComponent } from './projecthubpage/projecthubpage.compone
     ProjectpageComponent,
     ContactpageComponent,
     TimelinepageComponent,
-    ProjecthubpageComponent
+    ProjecthubpageComponent,
+    NavigationMenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
