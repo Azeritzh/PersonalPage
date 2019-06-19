@@ -1,22 +1,40 @@
 @import "../../variables.scss";
 
 .frontpage-background {
-	background-color: #7faaaa;
-	height: 100%;
-	background-repeat: no-repeat
+	width: -webkit-fill-available;
+	// background-color: #7faaaa;
+	// height: 100%;
+	// background-repeat: no-repeat
 }
 
-.text-container {
-	@include forDevice(handhelds) {
-		margin-left: 2rem;
-	}
-	@include forDevice(tablets) {
-		margin-left: 4rem;
-	}
-	@include forDevice(medium-screens) {
-		margin-left: 14rem;
-	}
+.frontpage-content-size {
+	width: 20rem;
 }
+
+.frontpage-content {
+	position: absolute;
+    margin-top: 20rem;
+}
+
+.frontpage-button {
+	background-color: #8FDA94;
+	color: white;
+	margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+// .text-container {
+// 	@include forDevice(handhelds) {
+// 		margin-left: 2rem;
+// 	}
+// 	@include forDevice(tablets) {
+// 		margin-left: 4rem;
+// 	}
+// 	@include forDevice(medium-screens) {
+// 		margin-left: 14rem;
+// 	}
+// }
 
 .frontpage-main-header {
 	font-size: 4rem;
@@ -128,13 +146,13 @@
 }
 
 /* The typing effect */
-@keyframes typing {
-	from { width: 0 }
-	to { width: 567px }
-  }
+// @keyframes typing {
+// 	from { width: 0 }
+// 	to { width: 567px }
+//   }
   
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-	from, to { border-color: transparent }
-	50% { border-color: #933232; }
-  }
+//   /* The typewriter cursor effect */
+//   @keyframes blink-caret {
+// 	from, to { border-color: transparent }
+// 	50% { border-color: #933232; }
+//   }

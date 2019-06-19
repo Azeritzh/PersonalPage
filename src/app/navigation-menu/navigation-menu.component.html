@@ -1,5 +1,5 @@
 <div style="height: 100vh;">
-  <mat-toolbar color="primary">
+  <mat-toolbar fxShow="true">
     <mat-toolbar-row>
       <button class="navbar-menu-button" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
         <mat-icon>menu</mat-icon>
@@ -10,8 +10,7 @@
       <div fxShow="true" fxHide.lt-md>
         <!-- The following menu items will be hidden on both SM and XS screen sizes -->
         <a href="#" class="navbar-header" (click)="aboutClick.emit()" mat-button>About</a>
-        <a href="#" class="navbar-header" (click)="skillClick.emit()" mat-button>Competences</a>
-        <a href="#" class="navbar-header" (click)="projectsClick.emit()" mat-button>Projects</a>
+        <a href="#" class="navbar-header" (click)="projectsClick.emit()" mat-button>Portefolio</a>
         <a href="#" class="navbar-header" (click)="contactClick.emit()" mat-button>Contact</a>
       </div>
     </mat-toolbar-row>
@@ -21,19 +20,18 @@
     <mat-sidenav #sidenav>
       <mat-nav-list>
         <a href="#" class="navbar-header" mat-list-item>About</a>
-        <a href="#" class="navbar-header" mat-list-item>Competences</a>
-        <a href="#" class="navbar-header" mat-list-item>Projects</a>
+        <a href="#" class="navbar-header" mat-list-item>Portefolio</a>
         <a href="#" class="navbar-header" mat-list-item>Contact</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill class="main-container">
       <!--Page content goes here-->
       <app-frontpage></app-frontpage> 
-      <app-aboutpage #aboutpage></app-aboutpage>
+      <!--app-aboutpage #aboutpage></app-aboutpage>
 	    <app-skillpage #skillpage></app-skillpage>
 	    <app-timelinepage></app-timelinepage>
       <app-projecthubpage #projectpage></app-projecthubpage>
-      <app-contactpage #contactpage></app-contactpage>
+      <app-contactpage #contactpage></app-contactpage-->
 
     </mat-sidenav-content>
   </mat-sidenav-container>
