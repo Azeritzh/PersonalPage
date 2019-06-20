@@ -15,6 +15,7 @@ import { NavigationMenuComponent } from './navigation-menu/navigation-menu.compo
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ContactpageComponent,
     TimelinepageComponent,
     ProjecthubpageComponent,
-    NavigationMenuComponent
+    NavigationMenuComponent,
+    WelcomepageComponent
   ],
   imports: [
     BrowserModule,
