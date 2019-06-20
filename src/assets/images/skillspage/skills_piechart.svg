@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 138 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.822364,0,0,0.822364,-1327.72,-540.595)">
+        <path d="M1695.32,699.429L1713.6,732.88C1708.55,735.453 1702.84,736.904 1696.8,736.904C1676.36,736.904 1659.76,720.309 1659.76,699.867C1659.76,680.108 1675.27,663.942 1694.77,662.885L1695.32,699.429Z" style="fill:rgb(208,227,237);"/>
+    </g>
+    <g transform="matrix(0.842427,0,0,0.842427,-1348.97,-562.057)">
+        <circle cx="1688.3" cy="707.153" r="37.037" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <circle cx="1688.3" cy="707.153" r="37.037"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g transform="matrix(1,0,0,1,-8.50036,7.28602)">
+                <path d="M1694.76,662.214L1695.32,699.429L1713.83,733.302C1731.74,736.169 1738.49,724.893 1749.61,703.14C1732.84,670.995 1712.8,659.554 1694.76,662.214Z" style="fill:rgb(208,237,210);"/>
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(0.771429,0,0,0.771429,-1225.86,-501.284)">
+        <circle cx="1641.95" cy="729.801" r="17.409" style="fill:rgb(208,237,210);"/>
+    </g>
+    <g transform="matrix(0.545308,0,0,0.545308,-896.775,-370.811)">
+        <g transform="matrix(0.955835,0,0,1,73.1161,0)">
+            <text x="1655.51px" y="687.844px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">60%</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,72.5983,0)">
+            <text x="1643.78px" y="698.966px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">Designer</text>
+        </g>
+    </g>
+    <g transform="matrix(0.545308,0,0,0.545308,-867.542,-313.737)">
+        <g transform="matrix(0.955835,0,0,1,72.9897,0)">
+            <text x="1652.65px" y="687.844px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">100%</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,72.9774,0)">
+            <text x="1652.37px" y="698.966px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">Artist</text>
+        </g>
+    </g>
+    <g transform="matrix(0.545308,0,0,0.545308,-788.121,-313.957)">
+        <g transform="matrix(0.955835,0,0,1,73.1161,0)">
+            <text x="1655.51px" y="687.844px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">40%</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,72.2192,0)">
+            <text x="1635.2px" y="698.966px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:10.77px;fill:rgb(59,106,180);">Programmer</text>
+        </g>
+    </g>
+    <g transform="matrix(0.392837,-0.392837,0.707107,0.707107,-1082.37,237.282)">
+        <rect x="1746.71" y="684.637" width="1.791" height="33.226" style="fill:rgb(59,106,180);"/>
+    </g>
+    <g transform="matrix(0.392837,-0.392837,0.707107,0.707107,-1148.82,205.648)">
+        <rect x="1746.71" y="684.637" width="1.791" height="33.226" style="fill:rgb(59,106,180);"/>
+    </g>
+</svg>

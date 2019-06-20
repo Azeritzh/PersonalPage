@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 154 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.972973,0,0,0.71875,-1360.63,-552.715)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-527.132)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">Css and Scss - 95%</text>
+    </g>
+    <g transform="matrix(0.841711,0,0,0.71875,-1177.07,-535.306)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-509.723)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">Html - 90%</text>
+    </g>
+    <g transform="matrix(0.634539,0,0,0.71875,-887.357,-516.156)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-490.574)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">Angular - 75%</text>
+    </g>
+    <g transform="matrix(0.534907,0,0,0.71875,-748.029,-498.499)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-472.916)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">T<tspan x="1410.45px 1417.41px " y="779.86px 779.86px ">yp</tspan>eScript - 60%</text>
+    </g>
+    <g transform="matrix(0.470066,0,0,0.71875,-657.354,-481.339)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-455.756)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">NodeJS - 55%</text>
+    </g>
+    <g transform="matrix(0.396924,0,0,0.71875,-555.069,-462.998)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-437.415)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">Unity - 30%</text>
+    </g>
+    <g transform="matrix(0.325758,0,0,0.71875,-455.549,-444.656)">
+        <rect x="1398.43" y="768.994" width="157.257" height="19.429" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.658115,0,0,0.688524,-921.007,-419.074)">
+        <text x="1403.79px" y="779.86px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:12.507px;fill:white;">C# - 25%</text>
+    </g>
+</svg>

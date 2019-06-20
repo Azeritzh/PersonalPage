@@ -19,6 +19,7 @@ import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { ExperiencepageComponent } from './experiencepage/experiencepage.component';
 import { PortefoliopageComponent } from './portefoliopage/portefoliopage.component';
 import { ServicespageComponent } from './servicespage/servicespage.component';
+import { SkillspageComponent } from './skillspage/skillspage.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { ServicespageComponent } from './servicespage/servicespage.component';
     WelcomepageComponent,
     ExperiencepageComponent,
     PortefoliopageComponent,
-    ServicespageComponent
+    ServicespageComponent,
+    SkillspageComponent
   ],
   imports: [
     BrowserModule,
