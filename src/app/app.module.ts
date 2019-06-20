@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
+import { ExperiencepageComponent } from './experiencepage/experiencepage.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { WelcomepageComponent } from './welcomepage/welcomepage.component';
     TimelinepageComponent,
     ProjecthubpageComponent,
     NavigationMenuComponent,
-    WelcomepageComponent
+    WelcomepageComponent,
+    ExperiencepageComponent
   ],
   imports: [
     BrowserModule,
