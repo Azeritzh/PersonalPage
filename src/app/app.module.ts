@@ -17,6 +17,7 @@ import { MaterialModule } from './material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { WelcomepageComponent } from './welcomepage/welcomepage.component';
 import { ExperiencepageComponent } from './experiencepage/experiencepage.component';
+import { PortefoliopageComponent } from './portefoliopage/portefoliopage.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { ExperiencepageComponent } from './experiencepage/experiencepage.compone
     ProjecthubpageComponent,
     NavigationMenuComponent,
     WelcomepageComponent,
-    ExperiencepageComponent
+    ExperiencepageComponent,
+    PortefoliopageComponent
   ],
   imports: [
     BrowserModule,
