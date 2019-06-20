@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 183 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(-0.408031,0,0,0.522807,249.536,-175.794)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(-2.70839,0,0,0.522807,1695.21,-191.337)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.485444,0,0,0.507874,-184.068,-192.993)">
+        <text x="489.164px" y="413.54px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:22.081px;fill:white;">User Interfaces</text>
+    </g>
+    <g transform="matrix(0.363326,0,0,0.363326,-130.444,-121.458)">
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="413.54px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:22.081px;fill:rgb(59,106,180);">I can make beautiful and user-centered</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="436.343px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:22.081px;fill:rgb(59,106,180);">interfaces to make your users enjoy the</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="459.147px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:22.081px;fill:rgb(59,106,180);">interaction with your application.</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-928.804,-725.895)">
+        <circle cx="955.104" cy="744.475" r="18.579" style="fill:rgb(208,227,237);"/>
+    </g>
+</svg>
