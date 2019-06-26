@@ -2,18 +2,44 @@
 
 .frontpage-background {
 	width: -webkit-fill-available;
-	// background-color: #7faaaa;
-	// height: 100%;
-	// background-repeat: no-repeat
 }
 
 .frontpage-content-size {
-	width: 32rem;
+	@include forDevice(handhelds) {
+		width: 17rem;
+	}
+	@include forDevice(handhelds-landscape) {
+		width: 30rem;
+	}
+	@include forDevice(tablets) {
+		width: 24rem;
+	}
+	@include forDevice(medium-screens) {
+		width: 25rem;
+	}
+	@include forDevice(large-screens) {
+		width: 32rem;
+	}
 }
 
 .frontpage-content {
 	position: absolute;
-    margin-top: 22rem;
+
+	@include forDevice(handhelds) {
+		margin-top: 14rem;
+	}
+	@include forDevice(handhelds-landscape) {
+		margin-top: 25rem;
+	}
+	@include forDevice(tablets) {
+		margin-top: 18rem;
+	}
+	@include forDevice(medium-screens) {
+		margin-top: 17rem;
+	}
+	@include forDevice(large-screens) {
+		margin-top: 22rem;
+	}
 }
 
 .frontpage-button {
@@ -23,18 +49,6 @@
     font-weight: bold;
     font-size: 1.1rem;
 }
-
-// .text-container {
-// 	@include forDevice(handhelds) {
-// 		margin-left: 2rem;
-// 	}
-// 	@include forDevice(tablets) {
-// 		margin-left: 4rem;
-// 	}
-// 	@include forDevice(medium-screens) {
-// 		margin-left: 14rem;
-// 	}
-// }
 
 .frontpage-main-header {
 	font-size: 4rem;
@@ -54,25 +68,6 @@
 	transform: scaleY(1);
 	transition: transform 0.6s ease-in;
 	animation: fadein 2s;
-}
-
-.frontpage-main-text {
-	font-size: 2rem;
-	@media (max-width: 1500px), (max-height: 980px) {font-size: 2rem; margin-top: 8rem;}
-	color: white;
-	grid-column-start: 1;
-	grid-row: 2;
-	height: 4rem;
-	overflow: hidden;
- 	border-right: 0.3rem solid orange; /* The typwriter cursor */
-  	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	margin-top: 11rem;
-  	letter-spacing: .1em; /* Adjust as needed */
-  	animation: 
-    typing 3.5s steps(30, end),
-	blink-caret .5s step-end infinite;
-	font-family: Helvetica, sans-serif;
 }
 
 .frontpage-main-arrow {
@@ -99,41 +94,6 @@
 	opacity: 0.5;
 }
 
-.frontpage-custom-icon {
-	position: absolute;
-	width: 10rem;
-}
-
-.frontpage-custom-icon-aquarium {
-	margin-left: 70vw;
-	margin-top: 15vh;
-	width: 15rem;
-}
-
-.frontpage-custom-icon-laptop {
-	margin-left: 50vw;
-	margin-top: 50vh;
-	width: 20rem;
-}
-
-.frontpage-custom-icon-notes {
-	margin-left: 30vw;
-	margin-top: 20vh;
-	width: 20rem;
-}
-
-.frontpage-custom-icon-succulent {
-	margin-left: 20vw;
-	margin-top: 70vh;
-	width: 7rem;
-}
-
-.frontpage-custom-icon-drawings {
-	margin-left: 75vw;
-	margin-top: 60vh;
-	width: 20rem;
-}
-
 @keyframes fadein {
 	from {opacity: 0;}
 	to {opacity: 1;}
@@ -144,15 +104,3 @@
 	50% {margin-top: -6rem;}
 	100% {margin-top: -7rem;}
 }
-
-/* The typing effect */
-// @keyframes typing {
-// 	from { width: 0 }
-// 	to { width: 567px }
-//   }
-  
-//   /* The typewriter cursor effect */
-//   @keyframes blink-caret {
-// 	from, to { border-color: transparent }
-// 	50% { border-color: #933232; }
-//   }

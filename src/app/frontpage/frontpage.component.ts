@@ -14,10 +14,5 @@ export class FrontpageComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    setTimeout(this.transitionText, 10)
-  }
-
-  transitionText() {
-    document.getElementById("frontpage-header").classList.add("appear")
   }
 }
