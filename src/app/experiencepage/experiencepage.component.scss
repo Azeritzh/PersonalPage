@@ -3,7 +3,10 @@
 .experiencepage-background {
     height: 45rem;
 
-    @include forDevice (handhelds-landscape) {
+    @include forDevice(handhelds) {
+        height: 40rem;
+    }
+    @include forDevice(handhelds-landscape) {
         height: 50rem;
     }
 }

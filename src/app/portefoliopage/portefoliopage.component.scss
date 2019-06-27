@@ -1,14 +1,32 @@
+@import "../../variables.scss";
+
 .portefoliopage-background {
     height: 50rem;
+
+    @include forDevice(handhelds) {
+        height: 60rem;
+    }
 }
 
 .header-img {
     width: 30rem;
-    margin-left: 7rem;
+    margin-left: 1rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-left: 1rem;
+    }
+    @include forDevice(medium-screens) {
+        margin-left: 7rem;
+    }
 }
 
 .portefolio-image {
     width: 20rem;
+
+    @include forDevice(handhelds) {
+        margin-bottom: 1rem;
+    }
 }
 
 .images-container {
