@@ -1,24 +1,28 @@
 <div class="welcomepage-background">
+
   <div fxLayoutAlign="center center" fxLayout="column">
-    <div fxLayoutAlign="space-around center" fxLayout="row" class="top-content">
-        <div>
-            <img class="header-img" src="assets/images/welcomepage/header_welcome.svg">
-            <h2 class="header-text">I'm a creative engineer based on Funen, Denmark</h2>
-            <h3 class="subheader-text">I enjoy using my creativity and mind to  create user friendly and intuitive interfaces.</h3>
-            <h3 class="subheader-text">  When I'm not coding, designing or at the  laptop, you'll find me drawing, writing, gardening or enjoying my fish.</h3>
-        </div>
-        <div class="christina-container">
-          <img class="christina-img" src="assets/images/welcomepage/welcome_christina.png">
-        </div>
+
+    <div fxLayoutAlign="space-around center" fxLayout="row" fxLayout.xs="column" fxLayout.gt-xs="column" fxLayout.gt-sm="row" class="top-content">
+      <div class="text-content">
+          <img class="header-img" src="assets/images/welcomepage/header_welcome.svg">
+          <h2 class="header-text">I'm a creative engineer based on Funen, Denmark</h2>
+          <h3 class="subheader-text">I enjoy using my creativity and mind to  create user friendly and intuitive interfaces.</h3>
+          <h3 class="subheader-text">  When I'm not coding, designing or at the  laptop, you'll find me drawing, writing, gardening or enjoying my fish.</h3>
       </div>
-      <img class="split-line" src="assets/images/welcomepage/welcome_line.svg">
+      <div class="christina-container">
+        <img class="christina-img" src="assets/images/welcomepage/welcome_christina.png">
+      </div>
+    </div>
+      <img fxShow.gt-xs="true" fxHide="true" class="split-line" src="assets/images/welcomepage/welcome_line.svg">
+      <img fxShow.xs="true" fxHide="true" class="split-line" src="assets/images/welcomepage/welcome_mobile_line.svg">
   </div>
-  <div fxLayoutAlign="space-around center" fxLayout="row" class="images-container">
+
+  <div fxShow.gt-xs="true" fxHide="true" fxLayoutAlign="space-around center" fxLayout="row" class="images-container">
     <img src="assets/images/welcomepage/welcome_img_placeholder.svg">
     <img src="assets/images/welcomepage/welcome_img_placeholder.svg">
     <img src="assets/images/welcomepage/welcome_img_placeholder.svg">
-    <img src="assets/images/welcomepage/welcome_img_placeholder.svg">
-    <img src="assets/images/welcomepage/welcome_img_placeholder.svg">
+    <img fxShow.gt-sm="true" fxHide="true" src="assets/images/welcomepage/welcome_img_placeholder.svg">
+    <img fxShow.gt-md="true" fxHide="true" src="assets/images/welcomepage/welcome_img_placeholder.svg">
   </div>
   
   

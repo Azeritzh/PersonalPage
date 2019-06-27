@@ -1,6 +1,18 @@
+@import "../../variables.scss";
+
 .welcomepage-background {
     width: -webkit-fill-available;
-    height: 47rem;
+    height: 55rem;
+
+    @include forDevice(handhelds) {
+        height: 60rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        height: 55rem;
+    }
+    @include forDevice(medium-screens) {
+        height: 60rem;
+    }
 }
 
 .top-content {
@@ -8,33 +20,109 @@
 }
 
 .header-img {
-    width: 30rem;
+    @include forDevice(handhelds) {
+        width: 20rem;
+    }
+    @include forDevice(tablets) {
+        width: 37rem;
+    }
+    // width: 30rem;
 }
 
 .header-text {
     font-weight: bold;
-    width: 26rem;
+    // width: 26rem;
     color: #3B6AB4;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        width: 28rem;
+    }
 }
 
 .subheader-text {
-    width: 26rem;
+    width: 35rem;
     color: #3B6AB4;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        width: 28rem;
+    }
 }
 
 .christina-img {
     height: 30rem;
+
+    @include forDevice(medium-screens) {
+        height: 37rem;
+    }
+    @include forDevice(large-screens) {
+        height: 37rem;
+    }
 }
 
 .split-line {
-    margin-top: -12rem;
-    width: 80rem;
+    @include forDevice(handhelds) {
+        margin-top: -9rem;
+        width: 23rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        margin-top: -7rem;
+        width: 49rem;
+    }
+    @include forDevice(tablets) {
+        margin-top: -9.5rem;
+    }
+    @include forDevice(medium-screens) {
+        margin-top: -12rem;
+        width: 82rem;
+    }
+    @include forDevice(large-screens) {
+        margin-top: -17rem;
+    }
+    // margin-top: -12rem;
+    // width: 80rem;
 }
 
 .christina-container {
-    margin-left: 11rem;
+    @include forDevice(handhelds) {
+        margin-left: 6rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        margin-left: 26rem;
+        margin-top: -16rem;
+    }
+    @include forDevice(tablets) {
+        margin-top: 8rem;
+    }
+    @include forDevice(medium-screens) {
+        margin-left: 9rem;
+        margin-top: 6rem;
+    }
+    @include forDevice(large-screens) {
+        margin-left: 29rem;
+    }
+    // margin-left: 11rem;
 }
 
 .images-container {
     height: 12rem;
+}
+
+.text-content {
+    margin-left: 2rem;
+
+    @include forDevice(handhelds) {
+        margin-left: 1rem;
+        margin-top: 2rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        margin-right: 15rem;
+        margin-top: 3rem;
+        margin-left: unset;
+    }
 }
