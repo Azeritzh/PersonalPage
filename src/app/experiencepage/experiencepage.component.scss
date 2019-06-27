@@ -1,10 +1,21 @@
+@import "../../variables.scss";
+
 .experiencepage-background {
     height: 45rem;
+
+    @include forDevice (handhelds-landscape) {
+        height: 50rem;
+    }
 }
 
 .header-img {
     width: 30rem;
-    margin-left: 7rem;
+    margin-left: 2rem; // 7rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-left: 1rem;
+    }
 }
 
 .subheader-img {
@@ -15,8 +26,33 @@
 .experience-width {
     width: 31rem;
     color: #3B6AB4;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        margin-top: 1rem;
+    }
+}
+
+.experience-education {
+    margin-bottom: 0.8rem;
+
+    @include forDevice(handhelds-landscape) {
+        margin-top: 2rem;
+    }
 }
 
 .info-img {
     width: 20rem;
+}
+
+.split-line {
+    margin-bottom: 1rem;
+
+    @include forDevice(handhelds) {
+        margin-bottom: unset;
+    }
 }

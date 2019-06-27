@@ -26,12 +26,10 @@
     @include forDevice(tablets) {
         width: 37rem;
     }
-    // width: 30rem;
 }
 
 .header-text {
     font-weight: bold;
-    // width: 26rem;
     color: #3B6AB4;
 
     @include forDevice(handhelds) {
@@ -84,8 +82,6 @@
     @include forDevice(large-screens) {
         margin-top: -17rem;
     }
-    // margin-top: -12rem;
-    // width: 80rem;
 }
 
 .christina-container {
@@ -106,7 +102,6 @@
     @include forDevice(large-screens) {
         margin-left: 29rem;
     }
-    // margin-left: 11rem;
 }
 
 .images-container {

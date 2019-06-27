@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(0.293926,0,0,0.293926,-138.156,-117.669)">
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="413.54px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:18.447px;fill:rgb(59,106,180);">Learning and experience</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="432.59px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:18.447px;fill:rgb(59,106,180);">technology</text>
+        </g>
+    </g>
+    <g transform="matrix(0.48608,0,0,0.698832,-664.722,-311.223)">
+        <rect x="1367.52" y="445.331" width="4.312" height="28.026" style="fill:rgb(143,218,148);"/>
+    </g>
+    <g transform="matrix(0.193773,0,0,0.202726,-28.8792,-79.7121)">
+        <text x="540.795px" y="413.54px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:22.081px;fill:rgb(208,227,237);">2013 - 2018</text>
+    </g>
+    <g transform="matrix(0.178455,0,0,0.178455,-81.9784,-59.6918)">
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="413.54px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.014px;fill:rgb(208,227,237);">1. - 10. semester</text>
+        </g>
+        <g transform="matrix(0.955835,0,0,1,21.6041,0)">
+            <text x="489.164px" y="435.241px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:21.014px;fill:rgb(208,227,237);">Bachelor and Master at SDU, Odense</text>
+        </g>
+    </g>
+</svg>
