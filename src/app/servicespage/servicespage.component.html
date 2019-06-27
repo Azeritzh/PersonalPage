@@ -1,13 +1,14 @@
 <div class="servicespage-background">
   <img class="header-img" src="assets/images/servicespage/header_services.svg">
   <div fxLayoutAlign="space-around center">
-    <img class="split-line" src="assets/images/servicespage/services_line.svg">
+    <img fxShow.gt-sm="true" fxHide="true" class="split-line" src="assets/images/servicespage/services_line.svg">
   </div>
-  <div fxLayoutAlign="space-around center" fxLayout="row" class="images-container">
+  <div fxLayoutAlign="space-around center" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" class="images-container">
+    <img fxShow.xs="true" fxShow.sm="true" fxHide="true" class="service-img" src="assets/images/servicespage/services_content_ux.svg">
     <img class="service-img" src="assets/images/servicespage/services_content_ui.svg">
-    <img class="service-img" src="assets/images/servicespage/services_content_ux.svg">
+    <img fxShow.gt-sm="true" fxHide="true" class="service-img" src="assets/images/servicespage/services_content_ux.svg">
   </div>
-  <div fxLayoutAlign="space-around center" fxLayout="row" class="images-container">
+  <div fxLayoutAlign="space-around center" fxLayout="row" fxLayout.xs="column" fxLayout.sm="column"  class="images-container">
     <img class="service-img" src="assets/images/servicespage/services_content_vector.svg">
     <img class="service-img" src="assets/images/servicespage/services_content_web.svg">
   </div>

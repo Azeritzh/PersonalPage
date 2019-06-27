@@ -1,19 +1,45 @@
+@import "../../variables.scss";
+
 .servicespage-background {
     height: 45rem;
+
+    @include forDevice(handhelds) {
+        height: 35rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        height: 55rem;
+    }
 }
 
 .header-img {
     width: 30rem;
     margin-left: 7rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-left: 1rem;
+        margin-bottom: 2rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        margin-left: 3rem;
+    }
 }
 
 .split-line {
     width: 80rem;
     margin: 1.5rem 0;
+
+    @include forDevice(large-screens) {
+        width: 113rem;
+    }
 }
 
 .images-container {
     height: 12rem;
+
+    @include forDevice(handhelds-landscape) {
+        height: 20rem;
+    }
 }
 
 .service-img {
