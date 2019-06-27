@@ -1,20 +1,20 @@
 <div class="skillspage-background">
   <div fxLayoutAlign="space-around center">
       <img class="header-img" src="assets/images/skillspage/header_skills.svg">
-      <img src="assets/images/skillspage/skills_piechart.svg">
+      <img fxShow.gt-sm="true" fxHide="true" src="assets/images/skillspage/skills_piechart.svg">
   </div>
   
-  <div fxLayoutAlign="center center">
+  <div fxShow.gt-sm="true" fxHide="true" fxLayoutAlign="center center">
       <img class="split-line" src="assets/images/skillspage/skills_line.svg">
   </div>
   
-  <div fxLayoutAlign="space-around center">
+  <div fxLayoutAlign="space-around center" fxLayout.xs="column" fxLayout.sm="column">
     <div fxLayout="column">
-        <h2 class="subheader-text">Programming skills</h2>
+        <h2 fxShow.gt-sm="true" fxHide="true" class="subheader-text">Programming skills</h2>
         <img class="skill-img" src="assets/images/skillspage/skills_programming.svg">
     </div>
     <div fxLayout="column">
-      <h2 class="subheader-text">Other skills</h2>
+      <h2 fxShow.gt-sm="true" fxHide="true" class="subheader-text">Other skills</h2>
       <img class="skill-img" src="assets/images/skillspage/skills_other.svg">
     </div>
     

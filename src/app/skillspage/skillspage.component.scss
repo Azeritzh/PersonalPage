@@ -1,14 +1,38 @@
+@import "../../variables.scss";
+
 .skillspage-background {
     height: 45rem;
+
+    @include forDevice(handhelds-landscape) {
+        height: 70rem;
+    }
 }
 
 .header-img {
     width: 30rem;
     margin-left: 7rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-left: unset;
+    }
+    @include forDevice(handhelds-landscape) {
+        width: 30rem;
+        margin-left: -11rem;
+    }
 }
 
 .skill-img {
     width: 25rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-top: 2rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        width: 33rem;
+        margin-top: 2rem;
+    }
 }
 
 .subheader-text {
@@ -19,4 +43,8 @@
 .split-line {
     margin: 1.5rem 0;
     width: 80rem;
+
+    @include forDevice(large-screens) {
+        width: 113rem;
+    }
 }
