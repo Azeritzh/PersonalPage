@@ -10,7 +10,7 @@
 
 .header-img {
     width: 30rem;
-    margin-left: 7rem;
+    margin-left: -2rem;
 
     @include forDevice(handhelds) {
         width: 20rem;
@@ -19,6 +19,12 @@
     @include forDevice(handhelds-landscape) {
         width: 30rem;
         margin-left: -11rem;
+    }
+    @include forDevice(medium-screens) {
+        margin-left: -9rem;
+    }
+    @include forDevice(large-screens) {
+        margin-left: -20rem;
     }
 }
 
