@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+
+.projectpage-background {
+    height: 45rem;
+
+    @include forDevice(handhelds) {
+        height: 40rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        height: 50rem;
+    }
+}
+
+.header-img {
+    width: 40rem;
+    margin: 1rem 0 0 1rem;
+
+    @include forDevice(handhelds) {
+        width: 20rem;
+        margin-left: 1rem;
+    }
+}
+
+.subheader-img {
+    width: 10rem;
+}
+
+.info-img {
+    width: 20rem;
+}
+
+.content-holder {
+    margin: 1rem 2rem 0;
+}
+
+.project-text {
+    width: 45rem;
+    color: #3B6AB4;
+    margin: 0.5rem;
+}
+
+.line-img {
+    width: 100%;
+}
