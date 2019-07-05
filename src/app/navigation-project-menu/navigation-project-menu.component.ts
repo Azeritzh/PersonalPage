@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Router} from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-navigation-project-menu',
@@ -7,7 +9,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationProjectMenuComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router
+    ) { }
+
+  public showProjectid = 0
+
+  @Output() projectEvent = new EventEmitter<number>()
+
+  returnToHomePage() {
+    this.router.navigate(['/home'])
+  }
+
+  showProject(projectId) {
+    this.showProjectid = projectId
+    this.projectEvent.emit(this.showProjectid)
+  }
 
   ngOnInit() {
   }

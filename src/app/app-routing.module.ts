@@ -6,6 +6,7 @@ import { NavigationProjectMenuComponent } from './navigation-project-menu/naviga
 const routes: Routes = [
   {path: 'home', component: NavigationMenuComponent},
   {path: 'project', component: NavigationProjectMenuComponent},
+  //{path: 'project/:id', component: NavigationProjectMenuComponent},
 
   {path: '', redirectTo: '/home', pathMatch: 'full'},
 ];

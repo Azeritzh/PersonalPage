@@ -1,24 +1,35 @@
 <div class="projectpage-background">
-  <img class="header-img" src="assets/images/projectpage/projectheader_esoft.svg">
+
+  <img *ngIf="showProjectid===0" class="header-img" src="assets/images/projectpage/projectheader_esoft.svg">
+  <img *ngIf="showProjectid===1" class="header-img" src="assets/images/projectpage/projectheader_idunhealth.svg">
+  <img *ngIf="showProjectid===2" class="header-img" src="assets/images/projectpage/projectheader_backup.svg">
+  <img *ngIf="showProjectid===3" class="header-img" src="assets/images/projectpage/projectheader_personalpage.svg">
+ 
   <div fxLayoutAlign="space-between center" fxLayout="row" class="content-holder">
     <div fxLayoutAlign="start start" fxLayout="column">
       <img class="subheader-img" src="assets/images/projectpage/projectsubheader_project_blue.svg">
       <h3 class="project-text">
-        I joined this ongoing project first as an intern and later as an employee. The  web application I worked on was an advertising SaaS system for real  estate agents mainly here in Denmark.
+        {{projectpageContent[showProjectid].text1}}
       </h3>
       <h3 class="project-text">
-        This project is lead by the Connect team that I joined and became a part of  while I worked there.
+          {{projectpageContent[showProjectid].text2}}
       </h3>
       <h3 class="project-text">
-        The web application is developed in Angular and TypeScript with a Java  backend and consists of an advertising system for real estate agents. The  system enables the agents to create advertising banners that will be  distributed on pages like Facebook, to reach the biggest amount of potential  buyers as possible. The system then gives the agents an overview over how the campaign is doing and how much were spent on it.
+          {{projectpageContent[showProjectid].text3}}
       </h3>
+      <h3 class="project-text">
+          {{projectpageContent[showProjectid].text4}}
+        </h3>
     </div>
-    <img class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
+    <img *ngIf="showProjectid===0" class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
+    <img *ngIf="showProjectid===1" class="info-img" src="assets/images/projectpage/projectinfo_idunhealth.svg">
+    <img *ngIf="showProjectid===2" class="info-img" src="assets/images/projectpage/projectinfo_backup.svg">
+    <img *ngIf="showProjectid===3" class="info-img" src="assets/images/projectpage/projectinfo_personalpage.svg">
   </div>
   <div fxLayoutAlign="space-around center" fxLayout="row" class="img-holder">
-    <img class="project-img" src="assets/images/welcomepage/welcome_img_placeholder.svg">
-    <img class="project-img" src="assets/images/welcomepage/welcome_img_placeholder.svg">
-    <img class="project-img" src="assets/images/welcomepage/welcome_img_placeholder.svg">
-    <img class="project-img" src="assets/images/welcomepage/welcome_img_placeholder.svg">
+    <img class="project-img" src={{projectpageContent[showProjectid].image1}}>
+    <img class="project-img" src={{projectpageContent[showProjectid].image2}}>
+    <img class="project-img" src={{projectpageContent[showProjectid].image3}}>
+    <img class="project-img" src={{projectpageContent[showProjectid].image4}}>
   </div>
 </div>

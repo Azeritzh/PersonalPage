@@ -1,15 +1,15 @@
 <div class="gallerypage-background">
     <img class="line-img" src="assets/images/servicespage/services_line.svg">
     <img class="subheader-img" src="assets/images/projectpage/projectsubheader_gallery_blue.svg">
-    <h3 class="gallery-text ">Here you can see some of the images of what I ended up with while working for Esoft. </h3>
+    <h3 class="gallery-text ">{{projectpageContent[showProjectid].text1}} </h3>
     <div fxLayoutAlign="space-around center" fxLayout="row" fxLayout.xs="column" class="images-container">
-        <img class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
-        <img class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
-        <img fxShow.gt-sm="true" fxShow.xs="true" fxHide="true" class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
+        <img class="gallery-img" src={{projectpageContent[showProjectid].image1}}>
+        <img class="gallery-img" src={{projectpageContent[showProjectid].image2}}>
+        <img fxShow.gt-sm="true" fxShow.xs="true" fxHide="true" class="gallery-img" src={{projectpageContent[showProjectid].image3}}>
       </div>
       <div fxShow.gt-xs="true" fxHide="true" fxLayoutAlign="space-around center" fxLayout="row" class="images-container">
-        <img class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
-        <img class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
-        <img fxShow.gt-sm="true" fxHide="true" class="gallery-img" src="assets/images/portefoliopage/portefolio_img_placeholder.svg">
+        <img class="gallery-img" src={{projectpageContent[showProjectid].image4}}>
+        <img class="gallery-img" src={{projectpageContent[showProjectid].image5}}>
+        <img fxShow.gt-sm="true" fxHide="true" class="gallery-img" src={{projectpageContent[showProjectid].image6}}>
       </div>
   </div>
