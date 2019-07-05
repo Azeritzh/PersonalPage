@@ -1,0 +1,33 @@
+.projectprocess-background {
+        height: 65rem;
+    
+        // @include forDevice(handhelds) {
+        //     height: 40rem;
+        // }
+        // @include forDevice(handhelds-landscape) {
+        //     height: 50rem;
+        // }
+}
+
+.subheader-img {
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+.line-img {
+    width: 100%;
+}
+
+.project-text {
+    width: 50rem;
+    color: #3B6AB4;
+    margin: 0.5rem;
+}
+
+.content-holder {
+    margin: 0 2rem 0;
+}
+
+.work-img {
+    width: 23rem;
+}

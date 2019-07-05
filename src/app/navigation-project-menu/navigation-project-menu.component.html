@@ -1,0 +1,39 @@
+<div style="height: 100vh;">
+  <mat-toolbar fxShow="true">
+    <mat-toolbar-row>
+      <button class="navbar-menu-button" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <img class="frontpage_logo" src="assets/images/icons/dragon_avatar.svg">
+      <span class="navbar-title">SilverWing</span>
+      <span class="menu-spacer"></span>
+      <div fxShow="true" fxHide.lt-md>
+        <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+        <a href="#" class="navbar-header" (click)="aboutClick.emit()" mat-button>Home</a>
+        <a href="#" class="navbar-header" (click)="projectsClick.emit()" mat-button>Esoft</a>
+        <a href="#" class="navbar-header" (click)="servicesClick.emit()" mat-button>Idun Health</a>
+        <a href="#" class="navbar-header" (click)="skillsClick.emit()" mat-button>BackUP</a>
+        <a href="#" class="navbar-header" (click)="contactClick.emit()" mat-button>Personal page</a>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+        <a href="#" class="navbar-header" mat-list-item>Home</a>
+        <a href="#" class="navbar-header" mat-list-item>Esoft</a>
+        <a href="#" class="navbar-header" mat-list-item>Idun Health</a>
+        <a href="#" class="navbar-header" mat-list-item>BackUP</a>
+        <a href="#" class="navbar-header" mat-list-item>Personal page</a>
+      </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill class="main-container">
+      <!--Page content goes here-->
+      <app-projectdetailspage></app-projectdetailspage>
+      <app-projectworkprocesspage></app-projectworkprocesspage>
+      <app-projectgallerypage></app-projectgallerypage>
+
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>

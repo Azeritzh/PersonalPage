@@ -3,12 +3,12 @@
 .projectpage-background {
     height: 45rem;
 
-    @include forDevice(handhelds) {
-        height: 40rem;
-    }
-    @include forDevice(handhelds-landscape) {
-        height: 50rem;
-    }
+    // @include forDevice(handhelds) {
+    //     height: 40rem;
+    // }
+    // @include forDevice(handhelds-landscape) {
+    //     height: 50rem;
+    // }
 }
 
 .header-img {
@@ -41,4 +41,8 @@
 
 .line-img {
     width: 100%;
+}
+
+.img-holder {
+    margin-top: 2rem;
 }

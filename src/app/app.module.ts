@@ -4,12 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FrontpageComponent } from './frontpage/frontpage.component';
-import { AboutpageComponent } from './aboutpage/aboutpage.component';
-import { SkillpageComponent } from './skillpage/skillpage.component';
-import { ProjectpageComponent } from './projectpage/projectpage.component';
 import { ContactpageComponent } from './contactpage/contactpage.component';
 import { TimelinepageComponent } from './timelinepage/timelinepage.component';
-import { ProjecthubpageComponent } from './projecthubpage/projecthubpage.component';
 import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,25 +17,27 @@ import { PortefoliopageComponent } from './portefoliopage/portefoliopage.compone
 import { ServicespageComponent } from './servicespage/servicespage.component';
 import { SkillspageComponent } from './skillspage/skillspage.component';
 import { ProjectdetailspageComponent } from './projectdetailspage/projectdetailspage.component';
+import { NavigationProjectMenuComponent } from './navigation-project-menu/navigation-project-menu.component';
+import { ProjectworkprocesspageComponent } from './projectworkprocesspage/projectworkprocesspage.component';
+import { ProjectgallerypageComponent } from './projectgallerypage/projectgallerypage.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FrontpageComponent,
-    AboutpageComponent,
-    SkillpageComponent,
-    ProjectpageComponent,
     ContactpageComponent,
     TimelinepageComponent,
-    ProjecthubpageComponent,
     NavigationMenuComponent,
     WelcomepageComponent,
     ExperiencepageComponent,
     PortefoliopageComponent,
     ServicespageComponent,
     SkillspageComponent,
-    ProjectdetailspageComponent
+    ProjectdetailspageComponent,
+    NavigationProjectMenuComponent,
+    ProjectworkprocesspageComponent,
+    ProjectgallerypageComponent
   ],
   imports: [
     BrowserModule,
