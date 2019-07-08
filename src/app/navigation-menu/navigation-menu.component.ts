@@ -6,14 +6,15 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./navigation-menu.component.scss']
 })
 export class NavigationMenuComponent implements OnInit {
-  @Output() aboutClick = new EventEmitter()
-  @Output() skillClick = new EventEmitter()
-  @Output() projectsClick = new EventEmitter()
-  @Output() contactClick = new EventEmitter()
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  scrollToElement(element) {
+    document.getElementById(element).scrollIntoView({behavior: "smooth"})
+    document.getElementById('navbar').style.display = 'table'
   }
 
 }

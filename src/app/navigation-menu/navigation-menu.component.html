@@ -1,5 +1,5 @@
 <div style="height: 100vh;">
-  <mat-toolbar fxShow="true">
+  <mat-toolbar fxShow="true" id="navbar">
     <mat-toolbar-row>
       <button class="navbar-menu-button" mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
         <mat-icon>menu</mat-icon>
@@ -9,11 +9,11 @@
       <span class="menu-spacer"></span>
       <div fxShow="true" fxHide.lt-md>
         <!-- The following menu items will be hidden on both SM and XS screen sizes -->
-        <a href="#" class="navbar-header" (click)="aboutClick.emit()" mat-button>About</a>
-        <a href="#" class="navbar-header" (click)="projectsClick.emit()" mat-button>Portefolio</a>
-        <a href="#" class="navbar-header" (click)="servicesClick.emit()" mat-button>Services</a>
-        <a href="#" class="navbar-header" (click)="skillsClick.emit()" mat-button>Skills</a>
-        <a href="#" class="navbar-header" (click)="contactClick.emit()" mat-button>Contact</a>
+        <a class="navbar-header" (click)="scrollToElement('about')" mat-button>About</a>
+        <a class="navbar-header" (click)="scrollToElement('portefolio')" mat-button>Portefolio</a>
+        <a class="navbar-header" (click)="scrollToElement('services')" mat-button>Services</a>
+        <a class="navbar-header" (click)="scrollToElement('skills')" mat-button>Skills</a>
+        <a class="navbar-header" (click)="scrollToElement('contact')" mat-button>Contact</a>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
@@ -21,21 +21,21 @@
   <mat-sidenav-container fxFlexFill>
     <mat-sidenav #sidenav>
       <mat-nav-list>
-        <a href="#" class="navbar-header" mat-list-item>About</a>
-        <a href="#" class="navbar-header" mat-list-item>Portefolio</a>
-        <a href="#" class="navbar-header" mat-list-item>Services</a>
-        <a href="#" class="navbar-header" mat-list-item>Skills</a>
-        <a href="#" class="navbar-header" mat-list-item>Contact</a>
+        <a class="navbar-header" (click)="scrollToElement('about')" mat-list-item>About</a>
+        <a class="navbar-header" (click)="scrollToElement('portefolio')" mat-list-item>Portefolio</a>
+        <a class="navbar-header" (click)="scrollToElement('services')" mat-list-item>Services</a>
+        <a class="navbar-header" (click)="scrollToElement('skills')" mat-list-item>Skills</a>
+        <a class="navbar-header" (click)="scrollToElement('contact')" mat-list-item>Contact</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill class="main-container">
       <!--Page content goes here-->
       <app-frontpage></app-frontpage>
-      <app-welcomepage></app-welcomepage>
+      <app-welcomepage id="about"></app-welcomepage>
       <app-experiencepage></app-experiencepage>
-      <app-portefoliopage></app-portefoliopage>
-      <app-servicespage></app-servicespage>
-      <app-skillspage></app-skillspage>
+      <app-portefoliopage id="portefolio"></app-portefoliopage>
+      <app-servicespage id="services"></app-servicespage>
+      <app-skillspage id="skills"></app-skillspage>
       <!--
       <app-contactpage #contactpage></app-contactpage-->
 
