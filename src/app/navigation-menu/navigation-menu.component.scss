@@ -6,6 +6,7 @@
 
   .main-container {
     overflow-x: hidden;
+    scroll-behavior: smooth;
   }
 
   .frontpage_logo {
@@ -30,4 +31,12 @@
   .navbar-title {
     color: #3B6AB4;
     font-weight: bold;
+  }
+
+  .navbar {
+    overflow:hidden;
+    transition:transform 1s ease-out;
+    height:auto;
+    transform:scaleY(1);  
+    transform-origin:top;
   }
