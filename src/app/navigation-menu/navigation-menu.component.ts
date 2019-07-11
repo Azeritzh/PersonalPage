@@ -7,29 +7,63 @@ import { Component, OnInit, Output, EventEmitter, ViewChild, ElementRef } from '
 })
 export class NavigationMenuComponent implements OnInit {
   @ViewChild('pageContent') pageContent: ElementRef
+  public shownPage = 'welcome'
+  private get aboutPos() {
+    return document.getElementById('about').offsetTop
+  }
+  private get portefolioPos() {
+    return document.getElementById('portefolio').offsetTop
+  }
+  private get servicesPos() {
+    return document.getElementById('services').offsetTop
+  }
+  private get skillsPos() {
+    return document.getElementById('skills').offsetTop
+  }
 
   constructor() { }
 
   ngOnInit() {
-    document.getElementById('mainContainer').addEventListener('scroll', function(e) {
-      console.log(document.getElementById('mainContainer').scrollTop)
+    document.getElementById('mainContainer').addEventListener('scroll', (e) => {
+
+      const scrollPos = document.getElementById('mainContainer').scrollTop
+
+      console.log(scrollPos)
+
+      if (scrollPos < this.aboutPos) {
+        this.shownPage = 'welcome'
+      }
+      else if (scrollPos >= this.aboutPos && scrollPos < this.portefolioPos) {
+        this.shownPage = 'about'
+      }
+      else if (scrollPos >= this.portefolioPos && scrollPos < this.servicesPos) {
+        this.shownPage = 'portefolio'
+      }
+      else if (scrollPos >= this.servicesPos && scrollPos < this.skillsPos) {
+        this.shownPage = 'services'
+      }
+      else if (scrollPos >= this.skillsPos) {
+        this.shownPage = 'skills'
+      }
     })
   }
 
-  scrollToComponent(element) {
+  public scrollToComponent(element) {
     let mainComponent = document.getElementById('mainContainer')
     switch(element) {
       case 'about':
-        mainComponent.scrollTop = 1000
+        mainComponent.scrollTop = this.aboutPos
         break
       case 'portefolio':
-        mainComponent.scrollTop = 2500
+        mainComponent.scrollTop = this.portefolioPos
         break
       case 'services':
-        mainComponent.scrollTop = 3300
+        mainComponent.scrollTop = this.servicesPos
         break
       case 'skills':
-        mainComponent.scrollTop = 4000
+        mainComponent.scrollTop = this.skillsPos
     }
   }
+
+
 }
