@@ -4,10 +4,12 @@
   <img *ngIf="showProjectid===1" class="header-img" src="assets/images/projectpage/projectheader_idunhealth.svg">
   <img *ngIf="showProjectid===2" class="header-img" src="assets/images/projectpage/projectheader_backup.svg">
   <img *ngIf="showProjectid===3" class="header-img" src="assets/images/projectpage/projectheader_personalpage.svg">
- 
-  <div fxLayoutAlign="space-between center" fxLayout="row" class="content-holder">
-    <div fxLayoutAlign="start start" fxLayout="column">
+  <div>
       <img class="subheader-img" src="assets/images/projectpage/projectsubheader_project_blue.svg">
+  </div>
+ 
+  <div fxLayoutAlign="space-around center" fxLayout="row" class="content-holder">
+    <div fxLayoutAlign="start start" fxLayout="column">
       <h3 class="project-text">
         {{projectpageContent[showProjectid].text1}}
       </h3>
