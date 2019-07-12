@@ -2,6 +2,10 @@
 
 .contactpage-background {
 	height: 44rem;
+
+	@include forDevice(handhelds-landscape) {
+		height: 36rem;
+	}
 }
 
 .header-img {
@@ -22,44 +26,85 @@
 	font-weight: bold;
 	color: #3B6AB4 !important;
 	text-decoration: none;
+
+	@include forDevice(handhelds-landscape) {
+		width: 12rem;
+	}
 }
 
 .text-margin-top {
 	margin-left: 2rem !important;
 	margin-top: 2rem !important;
 
+	@include forDevice(handhelds) {
+		width: 20rem
+	}
 	@include forDevice(large-screens) {
 		margin-left: 7rem !important;
 	}
+
+	
 }
 
 .text-margin-bottom {
 	margin-left: 2rem !important;
 	margin-bottom: 2rem !important;
 
+	@include forDevice(handhelds) {
+		width: 20rem
+	}
 	@include forDevice(large-screens) {
 		margin-left: 7rem !important;
 	}
+	
 }
 
 .contact-img {
 	width: 12rem;
 	margin-bottom: 1rem;
+
+	@include forDevice(handhelds) {
+		width: 7rem;
+	}
+	@include forDevice(handhelds-landscape) {
+		width: 8rem;
+	}
 }
 
 .contact-me-img {
 	width: 20rem;
 	margin-top: -5rem;
+
+	
+	@include forDevice(handhelds-landscape) {
+		width: 15rem;
+	}
 }
 
 .contact-text {
 	margin: 0;
 	color: #3B6AB4;
+
+	@include forDevice(handhelds) {
+		font-size: 1rem;
+	}
+	@include forDevice(handhelds-landscape) {
+		font-size: 1.2rem;
+	}
+	@include forDevice(tablets) {
+		font-size: 1.5rem;
+	}
 }
 
 .contact-container {
 	margin: 0 3rem;
 
+	@include forDevice(handhelds) {
+		margin-top: 2rem;
+	}
+	@include forDevice(handhelds-landscape) {
+		margin: 0 1rem;
+	}
 	@include forDevice(large-screens) {
 		margin: 0 9rem;
 	}

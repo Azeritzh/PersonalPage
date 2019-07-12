@@ -5,7 +5,7 @@
 
   <div fxLayoutAlign="center center" fxLayout="column">
 
-    <div fxLayoutAlign="space-around center" fxLayout="row">
+    <div fxLayoutAlign="space-around center" fxLayout="row" fxLayout.xs="column">
         <div fxLayoutAlign="center center" fxLayout="column" class="contact-container">
             <img class="contact-img" src="assets/images/contactpage/contact_linkedin.png">
             <h1 class="contact-text styled-text"><a class="styled-text" href="https://www.linkedin.com/in/christina-silverwing-856a06169" target="_blank">Christina Silverwing</a></h1>
@@ -17,7 +17,7 @@
             <h1 class="contact-text styled-text">valyrian@outlook.com</h1>
         </div>
 
-        <div>
+        <div fxShow.gt-xs="true" fxHide="true">
           <img class="contact-me-img" src="assets/images/contactpage/me_contact.png">
         </div>
     </div>
