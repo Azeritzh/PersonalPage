@@ -19,14 +19,20 @@
       <h3 class="project-text">
           {{projectpageContent[showProjectid].text3}}
       </h3>
-      <h3 class="project-text">
+      <h3 class="project-text" fxShow.gt-sm="true" fxHide="true">
           {{projectpageContent[showProjectid].text4}}
         </h3>
     </div>
+    
     <img *ngIf="showProjectid===0" class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
     <img *ngIf="showProjectid===1" class="info-img" src="assets/images/projectpage/projectinfo_idunhealth.svg">
     <img *ngIf="showProjectid===2" class="info-img" src="assets/images/projectpage/projectinfo_backup.svg">
     <img *ngIf="showProjectid===3" class="info-img" src="assets/images/projectpage/projectinfo_personalpage.svg">
+  </div>
+  <div fxShow.sm="true" fxHide="true" fxLayoutAlign="start start" class="small-screen-text-container">
+    <h3 class="project-text project-text-small-screens">
+        {{projectpageContent[showProjectid].text4}}
+      </h3>
   </div>
   <div fxLayoutAlign="space-around center" fxLayout="row" class="img-holder">
     <img class="project-img" src={{projectpageContent[showProjectid].image1}}>

@@ -38,6 +38,17 @@
     width: 45rem;
     color: #3B6AB4;
     margin: 0.5rem;
+
+    @include forDevice(handhelds-landscape) {
+        width: 30rem;
+    }
+    @include forDevice(tablets) {
+        width: 30rem;
+    }
+}
+
+.project-text-small-screens {
+    width: 44rem;
 }
 
 .img-holder {
@@ -46,4 +57,15 @@
 
 .project-img {
     width: 16rem;
+
+    @include forDevice(handhelds-landscape) {
+        width: 10rem;
+    }
+    @include forDevice(tablets) {
+        width: 13rem;
+    }
+}
+
+.small-screen-text-container {
+    margin-left: 2rem;
 }

@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .projectprocess-background {
         height: 65rem;
     
@@ -23,6 +25,13 @@
     width: 50rem;
     color: #3B6AB4;
     margin: 0.5rem;
+
+    @include forDevice(handhelds-landscape) {
+        width: 30rem;
+    }
+    @include forDevice(tablets) {
+        width: 40rem;
+    }
 }
 
 .content-holder {
@@ -35,4 +44,12 @@
 
 .content-holder-middle {
     margin-top: 2rem;
+}
+
+.project-text-small-screens {
+    width: 43rem;
+}
+
+.small-screen-text-container {
+    margin-left: 2rem;
 }

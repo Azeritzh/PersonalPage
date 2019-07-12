@@ -24,6 +24,12 @@
     @include forDevice(handhelds) {
         margin-bottom: 1rem;
     }
+    @include forDevice(handhelds-landscape) {
+        width: 13rem;
+    }
+    @include forDevice(tablets) {
+        width: 18rem;
+    }
 }
 
 .images-container {
