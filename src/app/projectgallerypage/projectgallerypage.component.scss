@@ -4,13 +4,25 @@
     height: 50rem;
 
     @include forDevice(handhelds) {
-        height: 60rem;
+        height: 103rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        height: 38rem;
+    }
+    @include forDevice(tablets) {
+        height: 46rem;
     }
 }
 
 .subheader-img {
     width: 12rem;
     margin-left: 2rem;
+
+    @include forDevice(handhelds) {
+        width: 9rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
 }
 
 .line-img {
@@ -34,6 +46,10 @@
 
 .images-container {
     margin-top: 2rem;
+
+    @include forDevice(handhelds) {
+        margin-top: unset;
+    }
 }
 
 .gallery-text {

@@ -1,13 +1,25 @@
 <div class="projectpage-background">
-
+  
   <img *ngIf="showProjectid===0" class="header-img" src="assets/images/projectpage/projectheader_esoft.svg">
   <img *ngIf="showProjectid===1" class="header-img" src="assets/images/projectpage/projectheader_idunhealth.svg">
   <img *ngIf="showProjectid===2" class="header-img" src="assets/images/projectpage/projectheader_backup.svg">
   <img *ngIf="showProjectid===3" class="header-img" src="assets/images/projectpage/projectheader_personalpage.svg">
-  <div>
+
+  <div fxShow.gt-xs="true" fxHide="true">
       <img class="subheader-img" src="assets/images/projectpage/projectsubheader_project_blue.svg">
   </div>
  
+  <div fxShow.xs="true" fxHide="true" fxLayoutAlign="center center">
+    <img *ngIf="showProjectid===0" class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
+    <img *ngIf="showProjectid===1" class="info-img" src="assets/images/projectpage/projectinfo_idunhealth.svg">
+    <img *ngIf="showProjectid===2" class="info-img" src="assets/images/projectpage/projectinfo_backup.svg">
+    <img *ngIf="showProjectid===3" class="info-img" src="assets/images/projectpage/projectinfo_personalpage.svg">
+  </div>
+
+  <div fxShow.xs="true" fxHide="true">
+      <img class="subheader-img" src="assets/images/projectpage/projectsubheader_project_blue.svg">
+  </div>
+
   <div fxLayoutAlign="space-around center" fxLayout="row" class="content-holder">
     <div fxLayoutAlign="start start" fxLayout="column">
       <h3 class="project-text">
@@ -23,18 +35,22 @@
           {{projectpageContent[showProjectid].text4}}
         </h3>
     </div>
+
+    <div fxShow.gt-xs="true" fxHide="true">
+      <img *ngIf="showProjectid===0" class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
+      <img *ngIf="showProjectid===1" class="info-img" src="assets/images/projectpage/projectinfo_idunhealth.svg">
+      <img *ngIf="showProjectid===2" class="info-img" src="assets/images/projectpage/projectinfo_backup.svg">
+      <img *ngIf="showProjectid===3" class="info-img" src="assets/images/projectpage/projectinfo_personalpage.svg">
+    </div>
     
-    <img *ngIf="showProjectid===0" class="info-img" src="assets/images/projectpage/projectinfo_esoft.svg">
-    <img *ngIf="showProjectid===1" class="info-img" src="assets/images/projectpage/projectinfo_idunhealth.svg">
-    <img *ngIf="showProjectid===2" class="info-img" src="assets/images/projectpage/projectinfo_backup.svg">
-    <img *ngIf="showProjectid===3" class="info-img" src="assets/images/projectpage/projectinfo_personalpage.svg">
   </div>
   <div fxShow.sm="true" fxHide="true" fxLayoutAlign="start start" class="small-screen-text-container">
     <h3 class="project-text project-text-small-screens">
         {{projectpageContent[showProjectid].text4}}
       </h3>
   </div>
-  <div fxLayoutAlign="space-around center" fxLayout="row" class="img-holder">
+
+  <div fxLayoutAlign="space-around center" fxLayout="row" class="img-holder" fxShow.gt-xs="true" fxHide="true">
     <img class="project-img" src={{projectpageContent[showProjectid].image1}}>
     <img class="project-img" src={{projectpageContent[showProjectid].image2}}>
     <img class="project-img" src={{projectpageContent[showProjectid].image3}}>

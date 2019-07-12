@@ -3,12 +3,12 @@
 .projectpage-background {
     height: 50rem;
 
-    // @include forDevice(handhelds) {
-    //     height: 40rem;
-    // }
-    // @include forDevice(handhelds-landscape) {
-    //     height: 50rem;
-    // }
+    @include forDevice(handhelds) {
+        height: 45rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        height: 49rem;
+    }
 }
 
 .header-img {
@@ -24,14 +24,29 @@
 .subheader-img {
     width: 10rem;
     margin-left: 2rem;
+
+    @include forDevice(handhelds) {
+        width: 7rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
 }
 
 .info-img {
     width: 20rem;
+
+    @include forDevice(handhelds) {
+        width: 15rem;
+        margin-top: 1rem;
+    }
 }
 
 .content-holder {
     margin: 1rem 2rem 0;
+
+    @include forDevice(handhelds) {
+        margin: unset;
+    }
 }
 
 .project-text {
@@ -39,8 +54,11 @@
     color: #3B6AB4;
     margin: 0.5rem;
 
+    @include forDevice(handhelds) {
+        width: 20rem;
+    }
     @include forDevice(handhelds-landscape) {
-        width: 30rem;
+        width: 24rem;
     }
     @include forDevice(tablets) {
         width: 30rem;
