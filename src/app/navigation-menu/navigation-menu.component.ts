@@ -20,6 +20,9 @@ export class NavigationMenuComponent implements OnInit {
   private get skillsPos() {
     return document.getElementById('skills').offsetTop
   }
+  private get contactPos() {
+    return document.getElementById('contact').offsetTop
+  }
 
   constructor() { }
 
@@ -42,8 +45,11 @@ export class NavigationMenuComponent implements OnInit {
       else if (scrollPos >= this.servicesPos && scrollPos < this.skillsPos) {
         this.shownPage = 'services'
       }
-      else if (scrollPos >= this.skillsPos) {
+      else if (scrollPos >= this.skillsPos && scrollPos < this.contactPos) {
         this.shownPage = 'skills'
+      }
+      else if (scrollPos >= this.contactPos) {
+        this.shownPage = 'contact'
       }
     })
   }
@@ -62,6 +68,10 @@ export class NavigationMenuComponent implements OnInit {
         break
       case 'skills':
         mainComponent.scrollTop = this.skillsPos
+        break
+      case 'contact':
+        mainComponent.scrollTop = this.contactPos
+        break
     }
   }
 
