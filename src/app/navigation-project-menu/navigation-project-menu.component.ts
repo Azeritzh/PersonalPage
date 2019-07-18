@@ -1,5 +1,5 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { Router} from '@angular/router';
+import { Router, ActivatedRoute} from '@angular/router';
 import { Observable } from 'rxjs';
 
 @Component({
@@ -10,7 +10,8 @@ import { Observable } from 'rxjs';
 export class NavigationProjectMenuComponent implements OnInit {
 
   constructor(
-    private router: Router
+    private router: Router,
+    private route: ActivatedRoute
     ) { }
 
   public showProjectid = 0
@@ -22,11 +23,13 @@ export class NavigationProjectMenuComponent implements OnInit {
   }
 
   showProject(projectId) {
-    this.showProjectid = projectId
-    this.projectEvent.emit(this.showProjectid)
+    this.router.navigate(['/projects', projectId])
   }
 
   ngOnInit() {
+    this.route.params.subscribe(params => {
+      this.showProjectid = +params['id']
+    })
   }
 
 }

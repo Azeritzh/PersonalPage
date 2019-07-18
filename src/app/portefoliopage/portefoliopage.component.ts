@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-portefoliopage',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortefoliopageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
+  }
+
+  showProject(projectId) {
+    this.router.navigate(['/projects', projectId])
   }
 
 }

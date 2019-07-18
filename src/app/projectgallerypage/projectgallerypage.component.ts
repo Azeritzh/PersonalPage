@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavigationProjectMenuComponent } from '../navigation-project-menu/navigation-project-menu.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-projectgallerypage',
@@ -8,13 +9,19 @@ import { NavigationProjectMenuComponent } from '../navigation-project-menu/navig
 })
 export class ProjectgallerypageComponent implements OnInit {
 
-  constructor(private navigationMenu: NavigationProjectMenuComponent) {
+  constructor(
+    private navigationMenu: NavigationProjectMenuComponent,
+    private route: ActivatedRoute
+    ) {
     this.navigationMenu.projectEvent.subscribe((value: any) => {
       this.recieveMessage(value)
     })
   }
 
   ngOnInit() {
+    this.route.params.subscribe(params => {
+      this.showProjectid = +params['id']
+    })
   }
 
   showProjectid = 0
