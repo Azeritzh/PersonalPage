@@ -44,9 +44,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text9: 'My main role at Esoft was as a frontend developer, where I started out with fixing translations and redesigning as well as coded new UI designs for some of the existing pages.',
       text10: 'I collaboration with their senior frontend developer Darryl, I began development on their payment module. Where I made wireframes for the UI, coded it, researched Stripe and incorporated it into the system.',
       text11: 'I also constructed new advertisement banners and added them into the system.',
-      image1: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image2: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image3: 'assets/images/welcomepage/welcome_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/esoft/esoft_4.png',
+      image2: 'assets/images/projectpage_images/esoft/esoft_15.png',
+      image3: 'assets/images/projectpage_images/esoft/esoft_2.png'
     },
     {
       project: 'idunhealth',
@@ -59,9 +59,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text7: 'It had the title "Development of UI and databasecommunication to Idun Health" and contained my design research, my work with the database layer and with the security of the system.',
       text9: 'Throughout my work process with this project, I also developed high-fidelity wireframes in the form of html mockups to show my ideas for design. I also made observations of already existing systems while in use and learned about what the users wanted and their pain points with the system they already used.',
       text10: 'All this knowledge and research was used as I developed in the UI with the project team. Iterating through each step to make something better than the last.',
-      image1: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image2: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image3: 'assets/images/welcomepage/welcome_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/idunhealth/idun_5.png',
+      image2: 'assets/images/projectpage_images/idunhealth/idun_6.png',
+      image3: 'assets/images/projectpage_images/idunhealth/idun_9.png'
     },
     {
       project: 'backup',
@@ -76,9 +76,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text9: 'After our studies were finished I joined the project again, and continued work on it with two of my friends to take it from prototype to product.',
       text10: 'My role in the project changed at this stage of the project from being mainly a product design, to also take on the frontend development of the web application and landing page for the project. ',
       text11: 'This web application began in pure JavaScript, Html and Css, but was later ported to Angular by me after a lot of good experiences with this framework. Again I made wireframes and coded the UI and functionality of the pages.',
-      image1: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image2: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image3: 'assets/images/welcomepage/welcome_img_placeholder.svg'
+      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
+      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
+      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
     },
     {
       project: 'personalpage',
@@ -92,9 +92,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text9: 'As I started work at Esoft, my work on my personal page stopped. But I quickly resumed it with new energy and experience as I became available on the job market once again.',
       text10: 'My experience at Esoft made me look at the designs iterations I did with fresh eyes and I started all over again.',
       text11: 'I did all the research again and looked into design trends, I also made several new wireframes and redid the design as well as finally adding responsiveness to it as this was something the earlier iterations missed.',
-      image1: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image2: 'assets/images/welcomepage/welcome_img_placeholder.svg',
-      image3: 'assets/images/welcomepage/welcome_img_placeholder.svg'
+      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
+      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
+      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
     },
   ]
 

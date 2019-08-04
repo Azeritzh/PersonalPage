@@ -42,6 +42,9 @@
     @include forDevice(tablets) {
         width: 18rem;
     }
+    @include forDevice(large-screens) {
+        width: 30rem;
+    }
 }
 
 .images-container {

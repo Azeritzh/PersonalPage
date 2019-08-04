@@ -82,6 +82,9 @@
     @include forDevice(tablets) {
         width: 13rem;
     }
+    @include forDevice(large-screens) {
+        width: 27rem;
+    }
 }
 
 .small-screen-text-container {

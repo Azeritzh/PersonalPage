@@ -34,22 +34,22 @@ export class ProjectgallerypageComponent implements OnInit {
     {
       project: 'esoft',
       text1: 'Here you can see some of the images of what I ended up with while working for Esoft.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image4: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image5: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image6: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/esoft/esoft_6.png',
+      image2: 'assets/images/projectpage_images/esoft/esoft_7.png',
+      image3: 'assets/images/projectpage_images/esoft/esoft_8.png',
+      image4: 'assets/images/projectpage_images/esoft/esoft_9.png',
+      image5: 'assets/images/projectpage_images/esoft/esoft_10.png',
+      image6: 'assets/images/projectpage_images/esoft/esoft_16.png'
     },
     {
       project: 'idunhealth',
       text1: 'The work on this project still continues here in 2019, and therefore is not done yet, but here is an overview of what it looks like right now.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image4: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image5: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image6: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/idunhealth/idun_13.png',
+      image2: 'assets/images/projectpage_images/idunhealth/idun_14.png',
+      image3: 'assets/images/projectpage_images/idunhealth/idun_15.png',
+      image4: 'assets/images/projectpage_images/idunhealth/idun_7.png',
+      image5: 'assets/images/projectpage_images/idunhealth/idun_10.png',
+      image6: 'assets/images/projectpage_images/idunhealth/idun_11.png'
     },
     {
       project: 'backup',
