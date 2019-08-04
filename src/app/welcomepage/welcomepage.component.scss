@@ -121,3 +121,22 @@
         margin-left: unset;
     }
 }
+
+.welcome-img {
+    width: 18rem;
+
+    @include forDevice(handhelds) {
+        width: 12rem;
+    }
+    @include forDevice(handhelds-landscape) {
+        width: 12rem;
+    }
+    @include forDevice(tablets) {
+        width: 14rem;
+    }
+    @include forDevice(medium-screens) {
+        width: 14rem;
+    }
+    
+    
+}
