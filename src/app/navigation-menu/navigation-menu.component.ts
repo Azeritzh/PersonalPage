@@ -31,8 +31,6 @@ export class NavigationMenuComponent implements OnInit {
 
       const scrollPos = document.getElementById('mainContainer').scrollTop
 
-      console.log(scrollPos)
-
       if (scrollPos < this.aboutPos) {
         this.shownPage = 'welcome'
       }

@@ -28,7 +28,6 @@ export class ProjectdetailspageComponent implements OnInit {
 
   recieveMessage($event) {
     this.showProjectid = $event
-    console.log(this.showProjectid)
   }
 
   projectpageContent = [
