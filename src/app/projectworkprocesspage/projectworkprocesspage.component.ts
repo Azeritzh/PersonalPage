@@ -92,9 +92,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text9: 'As I started work at Esoft, my work on my personal page stopped. But I quickly resumed it with new energy and experience as I became available on the job market once again.',
       text10: 'My experience at Esoft made me look at the designs iterations I did with fresh eyes and I started all over again.',
       text11: 'I did all the research again and looked into design trends, I also made several new wireframes and redid the design as well as finally adding responsiveness to it as this was something the earlier iterations missed.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/personalpage/personal_10.png',
+      image2: 'assets/images/projectpage_images/personalpage/personal_9.png',
+      image3: 'assets/images/projectpage_images/personalpage/personal_13.png'
     },
   ]
 

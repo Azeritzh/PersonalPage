@@ -70,10 +70,10 @@ export class ProjectdetailspageComponent implements OnInit {
       text2: 'The goal for this page was to have a project to show to potential employers and to have a page where recruiters and project owners can learn about that I can provide of value to them and their company.',
       text3: 'The page is developed in Angular and TypeScript, and uses Scss, Angular materials and FxLayout.',
       text4: 'It consists of a landing page built as a scroll page, where all important information can be found by just scrolling. The whole page is responsive and works on both large and small computer screens as well as tablet and mobile. ',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image4: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
+      image1: 'assets/images/projectpage_images/personalpage/personal_5.png',
+      image2: 'assets/images/projectpage_images/personalpage/personal_6.png',
+      image3: 'assets/images/projectpage_images/personalpage/personal_7.png',
+      image4: 'assets/images/projectpage_images/personalpage/personal_8.png',
     },
   ]
 }

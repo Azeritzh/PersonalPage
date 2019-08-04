@@ -64,12 +64,12 @@ export class ProjectgallerypageComponent implements OnInit {
     {
       project: 'personalpage',
       text1: 'Below you can see the iterations I went through as well as what I did in the form of research and wireframing to come up with the design my page has today.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image4: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image5: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image6: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/personalpage/personal_12.png',
+      image2: 'assets/images/projectpage_images/personalpage/personal_11.png',
+      image3: 'assets/images/projectpage_images/personalpage/personal_1.png',
+      image4: 'assets/images/projectpage_images/personalpage/personal_2.png',
+      image5: 'assets/images/projectpage_images/personalpage/personal_3.png',
+      image6: 'assets/images/projectpage_images/personalpage/personal_4.png'
     }
   ]
 
