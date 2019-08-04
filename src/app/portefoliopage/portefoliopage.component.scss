@@ -23,12 +23,36 @@
 
 .portefolio-image {
     width: 20rem;
+    opacity: 0.5;
+    cursor: pointer;
 
     @include forDevice(handhelds) {
         margin-bottom: 1rem;
     }
+    @include forDevice(large-screens) {
+        width: 30rem;
+    }
+}
+
+.portefolio-image:hover {
+    opacity: 1;
 }
 
 .images-container {
     margin-top: 2rem;
+}
+
+.image-smallscreen {
+    opacity: 0;
+    pointer-events: none;
+
+    @include forDevice(handhelds) {
+        opacity: 0.5;
+        pointer-events: unset;
+    }
+    @include forDevice(handhelds-landscape) {
+        opacity: 0.5;
+        pointer-events: unset;
+    }
+
 }

@@ -54,9 +54,13 @@
 .work-img {
     width: 23rem;
 
+    @include forDevice(handhelds-landscape) {
+        width: 19rem;
+    }
     @include forDevice(large-screens) {
         width: 30rem;
     }
+    
 }
 
 .content-holder-middle {
