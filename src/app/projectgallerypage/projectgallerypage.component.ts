@@ -54,12 +54,12 @@ export class ProjectgallerypageComponent implements OnInit {
     {
       project: 'backup',
       text1: 'This project is still a work in progress and today consists of a physical product as well as a web application and landing page as seen on the images below.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image4: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image5: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image6: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/backup/backup_3.png',
+      image2: 'assets/images/projectpage_images/backup/backup_4.png',
+      image3: 'assets/images/projectpage_images/backup/backup_5.png',
+      image4: 'assets/images/projectpage_images/backup/backup_6.png',
+      image5: 'assets/images/projectpage_images/backup/backup_10.png',
+      image6: 'assets/images/projectpage_images/backup/backup_9.png'
     },
     {
       project: 'personalpage',

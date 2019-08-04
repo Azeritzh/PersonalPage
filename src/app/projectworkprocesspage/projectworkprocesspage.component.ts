@@ -76,9 +76,9 @@ export class ProjectworkprocesspageComponent implements OnInit {
       text9: 'After our studies were finished I joined the project again, and continued work on it with two of my friends to take it from prototype to product.',
       text10: 'My role in the project changed at this stage of the project from being mainly a product design, to also take on the frontend development of the web application and landing page for the project. ',
       text11: 'This web application began in pure JavaScript, Html and Css, but was later ported to Angular by me after a lot of good experiences with this framework. Again I made wireframes and coded the UI and functionality of the pages.',
-      image1: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image2: 'assets/images/portefoliopage/portefolio_img_placeholder.svg',
-      image3: 'assets/images/portefoliopage/portefolio_img_placeholder.svg'
+      image1: 'assets/images/projectpage_images/backup/backup_11.png',
+      image2: 'assets/images/projectpage_images/backup/backup_13.png',
+      image3: 'assets/images/projectpage_images/backup/backup_14.png'
     },
     {
       project: 'personalpage',
