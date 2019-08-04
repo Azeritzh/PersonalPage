@@ -10,10 +10,10 @@
       <div fxShow="true" fxHide.lt-md>
         <!-- The following menu items will be hidden on both SM and XS screen sizes -->
         <a href="/home" class="navbar-header" mat-button>Home</a>
-        <a class="navbar-header" (click)="showProject(0)" [ngStyle]="{'text-decoration': showProjectid == '0' ? 'underline' : ''}" mat-button>Esoft</a>
-        <a class="navbar-header" (click)="showProject(1)" [ngStyle]="{'text-decoration': showProjectid == '1' ? 'underline' : ''}" mat-button>Idun Health</a>
-        <a class="navbar-header" (click)="showProject(2)" [ngStyle]="{'text-decoration': showProjectid == '2' ? 'underline' : ''}" mat-button>BackUP</a>
-        <a class="navbar-header" (click)="showProject(3)" [ngStyle]="{'text-decoration': showProjectid == '3' ? 'underline' : ''}" mat-button>Personal page</a>
+        <a class="navbar-header" (click)="showProject(0)" [ngStyle]="{'text-decoration': showProjectid == 0 ? 'underline' : ''}" mat-button>Esoft</a>
+        <a class="navbar-header" (click)="showProject(1)" [ngStyle]="{'text-decoration': showProjectid == 1 ? 'underline' : ''}" mat-button>Idun Health</a>
+        <a class="navbar-header" (click)="showProject(2)" [ngStyle]="{'text-decoration': showProjectid == 2 ? 'underline' : ''}" mat-button>BackUP</a>
+        <a class="navbar-header" (click)="showProject(3)" [ngStyle]="{'text-decoration': showProjectid == 3 ? 'underline' : ''}" mat-button>Personal page</a>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
@@ -22,10 +22,10 @@
     <mat-sidenav #sidenav>
       <mat-nav-list>
         <a href="/home" class="navbar-header" mat-list-item>Home</a>
-        <a class="navbar-header" (click)="showProject(0)" [ngStyle]="{'text-decoration': showProjectid == '0' ? 'underline' : ''}" mat-list-item>Esoft</a>
-        <a class="navbar-header" (click)="showProject(1)" [ngStyle]="{'text-decoration': showProjectid == '1' ? 'underline' : ''}" mat-list-item>Idun Health</a>
-        <a class="navbar-header" (click)="showProject(2)" [ngStyle]="{'text-decoration': showProjectid == '2' ? 'underline' : ''}" mat-list-item>BackUP</a>
-        <a class="navbar-header" (click)="showProject(3)" [ngStyle]="{'text-decoration': showProjectid == '3' ? 'underline' : ''}" mat-list-item>Personal page</a>
+        <a class="navbar-header" (click)="showProject(0)" [ngStyle]="{'text-decoration': showProjectid == 0 ? 'underline' : ''}" mat-list-item>Esoft</a>
+        <a class="navbar-header" (click)="showProject(1)" [ngStyle]="{'text-decoration': showProjectid == 1 ? 'underline' : ''}" mat-list-item>Idun Health</a>
+        <a class="navbar-header" (click)="showProject(2)" [ngStyle]="{'text-decoration': showProjectid == 2 ? 'underline' : ''}" mat-list-item>BackUP</a>
+        <a class="navbar-header" (click)="showProject(3)" [ngStyle]="{'text-decoration': showProjectid == 3 ? 'underline' : ''}" mat-list-item>Personal page</a>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content fxFlexFill class="main-container">

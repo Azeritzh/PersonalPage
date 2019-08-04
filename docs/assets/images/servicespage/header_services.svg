@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 200 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(-0.773745,0,0,0.691228,511.198,-231.523)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(208,227,237);"/>
+    </g>
+    <g transform="matrix(-0.537555,0,0,0.466667,342.09,-170.431)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(208,227,237);"/>
+    </g>
+    <g transform="matrix(-0.171841,0,0,0.256141,105.091,-96.43)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(208,227,237);"/>
+    </g>
+    <g transform="matrix(-2.2366,0,0,1,1430.08,-365.961)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(112,180,215);"/>
+    </g>
+    <g transform="matrix(0.569408,0,0,0.595718,-190.956,-205.568)">
+        <text x="474.051px" y="398.584px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:37.066px;fill:white;">Services</text>
+    </g>
+    <g transform="matrix(-0.408031,0,0,0.522807,422.985,-194.3)">
+        <rect x="558.496" y="376.473" width="53.066" height="28.807" style="fill:rgb(208,227,237);"/>
+    </g>
+    <g transform="matrix(0.485444,0,0,0.507874,-154.513,-158.671)">
+        <text x="489.164px" y="413.54px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:22.081px;fill:rgb(59,106,180);">What can I do for you?</text>
+    </g>
+</svg>
